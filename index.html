@@ -1,0 +1,393 @@
+<!DOCTYPE html><html class="dark" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>OffsetPixal | Premium Offset Printing &amp; Packaging Solutions</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;900&amp;family=Poppins:wght@400;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-surface-variant": "#b9cac9",
+                    "surface-container-highest": "#353534",
+                    "outline-variant": "#3a4a49",
+                    "background": "#131313",
+                    "tertiary": "#ffffff",
+                    "on-surface": "#e5e2e1",
+                    "on-secondary-container": "#500050",
+                    "secondary-container": "#fe00fe",
+                    "surface-tint": "#00dddd",
+                    "on-secondary": "#5b005b",
+                    "primary": "#ffffff",
+                    "inverse-on-surface": "#313030",
+                    "on-tertiary": "#323200",
+                    "surface": "#131313",
+                    "surface-bright": "#393939",
+                    "surface-container-low": "#1c1b1b",
+                    "secondary": "#ffabf3",
+                    "on-tertiary-fixed-variant": "#494900",
+                    "on-primary-fixed-variant": "#004f4f",
+                    "on-background": "#e5e2e1",
+                    "surface-container-lowest": "#0e0e0e",
+                    "error-container": "#93000a",
+                    "tertiary-fixed-dim": "#cdcd00",
+                    "primary-container": "#00fbfb",
+                    "secondary-fixed": "#ffd7f5",
+                    "inverse-primary": "#006a6a",
+                    "on-tertiary-fixed": "#1d1d00",
+                    "inverse-surface": "#e5e2e1",
+                    "on-error-container": "#ffdad6",
+                    "tertiary-container": "#eaea00",
+                    "on-error": "#690005",
+                    "primary-fixed": "#00fbfb",
+                    "surface-dim": "#131313",
+                    "secondary-fixed-dim": "#ffabf3",
+                    "on-primary": "#003737",
+                    "surface-container": "#201f1f",
+                    "error": "#ffb4ab",
+                    "outline": "#839493",
+                    "surface-variant": "#353534",
+                    "on-tertiary-container": "#686800",
+                    "surface-container-high": "#2a2a2a",
+                    "tertiary-fixed": "#eaea00",
+                    "on-primary-container": "#007070",
+                    "primary-fixed-dim": "#00dddd",
+                    "on-primary-fixed": "#002020",
+                    "on-secondary-fixed-variant": "#810081",
+                    "on-secondary-fixed": "#380038"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "base": "8px",
+                    "container-max": "1440px",
+                    "margin-desktop": "64px",
+                    "margin-mobile": "20px",
+                    "gutter": "24px"
+            },
+            "fontFamily": {
+                    "headline-lg-mobile": ["Montserrat"],
+                    "headline-lg": ["Montserrat"],
+                    "headline-md": ["Montserrat"],
+                    "body-lg": ["Poppins"],
+                    "display-lg": ["Montserrat"],
+                    "body-md": ["Poppins"],
+                    "label-sm": ["Poppins"]
+            },
+            "fontSize": {
+                    "headline-lg-mobile": ["28px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "headline-lg": ["36px", {"lineHeight": "1.2", "fontWeight": "700"}],
+                    "headline-md": ["20px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                    "body-lg": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "900"}],
+                    "body-md": ["14px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "label-sm": ["11px", {"lineHeight": "1", "letterSpacing": "0.05em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .glass-card {
+            background: rgba(53, 53, 52, 0.4);
+            backdrop-filter: blur(20px);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            border-left: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .ink-glow-cyan { text-shadow: 0 0 15px #00fbfb; }
+        .ink-glow-magenta { text-shadow: 0 0 15px #fe00fe; }
+        .btn-glossy {
+            background: linear-gradient(135deg, #ffffff 0%, #e5e2e1 100%);
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        }
+        .btn-glossy:hover {
+            box-shadow: 0 0 25px rgba(0, 251, 251, 0.5);
+            transform: scale(0.98);
+        }
+        .metallic-edge {
+            border-top: 1px solid #839493;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/60 backdrop-blur-xl border-b border-outline-variant/30 shadow-2xl shadow-black/20 h-16 md:h-20">
+<div class="flex justify-between items-center max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop h-full">
+<div class="flex items-center h-full">
+    <img src="logo_full.png" alt="OffsetPixal Logo" class="h-8 md:h-12 w-auto object-contain">
+</div>
+<nav class="hidden md:flex items-center gap-12">
+<a class="text-primary border-b-2 border-primary-fixed pb-1 font-headline-md text-body-md" href="#">Services</a>
+<a class="text-on-surface-variant hover:text-primary-fixed-dim transition-all duration-300 font-headline-md text-body-md" href="#">Portfolio</a>
+<a class="text-on-surface-variant hover:text-primary-fixed-dim transition-all duration-300 font-headline-md text-body-md" href="#">Technology</a>
+</nav>
+<button class="btn-glossy text-on-primary px-6 py-2.5 text-xs md:text-sm font-bold uppercase tracking-tighter transition-all duration-300">
+                Get Quote
+            </button>
+</div>
+</header>
+<main class="mt-16 md:mt-20">
+<!-- Hero Section -->
+<section class="relative min-h-[921px] flex flex-col justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-40" data-alt="A cinematic, high-angle shot of a heavy-duty industrial offset printing press in motion within a dark, moody factory environment. Floating 3D premium packaging boxes for cosmetics and luxury electronics are artistically suspended in the air. The lighting is focused and dramatic, highlighting metallic surfaces and reflecting vibrant CMYK ink spills. The overall aesthetic is one of unshakable reliability and high-end industrial luxury." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFGsTXVtmQPZdF0l8Vf4JZTNlETWvRf3aHxxRwqaFixe21ZK1x7L6r47vmMMw-_iwEOwF7sGLw3s6Qc3gQ_NjnFmftOqHtnMqvJP4v3za_l6-TfuT5M5XRFN49fmPH9IHUDBvi9ow-gNdnq1GMRUEGi31HNtjKlJtPumxafAS5FivwZ_rwhFeWoUBoRLQlV6DUVFsn_7Aw-_cpCu7r4aUVhp3T0nf5aykfA_kBw0gMAPrMEfvkCO9o_ekkZcAvCtK11ANNi2ZntcE">
+<div class="absolute inset-0 bg-gradient-to-t from-background via-background/20 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center md:text-left">
+<h1 class="font-display-lg text-3xl sm:text-4xl md:text-headline-lg lg:text-display-lg text-primary mb-6 max-w-4xl leading-tight">
+                    Premium Offset Printing &amp; Packaging Solutions
+                </h1>
+<p class="font-headline-md text-base sm:text-lg md:text-headline-md text-on-surface-variant mb-12 max-w-2xl">
+                    CMYK • RGB • Pantone Precision Printing • Luxury Packaging • Labels • Corporate Printing
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
+<button class="btn-glossy text-on-primary px-8 py-4 text-sm md:text-headline-md uppercase tracking-widest">
+                        Get Quote
+                    </button>
+<button class="border border-primary text-primary px-8 py-4 text-sm md:text-headline-md uppercase tracking-widest hover:bg-primary/10 transition-colors">
+                        View Portfolio
+                    </button>
+</div>
+</div>
+<!-- CMYK Strips -->
+<div class="absolute bottom-0 w-full h-4 flex">
+<div class="flex-1 bg-primary-fixed shadow-[0_0_15px_#00fbfb]"></div>
+<div class="flex-1 bg-secondary-container shadow-[0_0_15px_#fe00fe]"></div>
+<div class="flex-1 bg-tertiary-fixed shadow-[0_0_15px_#eaea00]"></div>
+<div class="flex-1 bg-surface-container-highest"></div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-16 md:py-24 bg-surface-dim">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="mb-16 flex justify-between items-end">
+<h2 class="font-display-lg text-headline-lg-mobile md:text-headline-lg text-primary">Precision Services</h2>
+<div class="h-1 w-32 bg-primary-fixed"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<!-- Offset Printing -->
+<div class="glass-card p-10 group hover:translate-y-[-8px] transition-transform duration-500">
+<span class="material-symbols-outlined text-primary-fixed text-5xl mb-6 block" style="font-variation-settings: &quot;FILL&quot; 1;">print</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Offset Printing</h3>
+<p class="text-on-surface-variant font-body-md mb-8">High-volume commercial printing with unparalleled clarity and consistency using advanced plates.</p>
+<div class="h-[2px] w-full bg-outline-variant group-hover:bg-primary-fixed transition-colors"></div>
+</div>
+<!-- Packaging Box -->
+<div class="glass-card p-10 group hover:translate-y-[-8px] transition-transform duration-500">
+<span class="material-symbols-outlined text-secondary-container text-5xl mb-6 block" style="font-variation-settings: &quot;FILL&quot; 1;">inventory_2</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Packaging Boxes</h3>
+<p class="text-on-surface-variant font-body-md mb-8">Custom rigid and corrugated packaging designed for luxury brands and retail excellence.</p>
+<div class="h-[2px] w-full bg-outline-variant group-hover:bg-secondary-container transition-colors"></div>
+</div>
+<!-- Pantone Matching -->
+<div class="glass-card p-10 group hover:translate-y-[-8px] transition-transform duration-500">
+<span class="material-symbols-outlined text-tertiary-fixed text-5xl mb-6 block" style="font-variation-settings: &quot;FILL&quot; 1;">palette</span>
+<h3 class="font-headline-md text-headline-md text-primary mb-4">Pantone Matching</h3>
+<p class="text-on-surface-variant font-body-md mb-8">Strict color fidelity with spot color precision to maintain your brand's global identity.</p>
+<div class="h-[2px] w-full bg-outline-variant group-hover:bg-tertiary-fixed transition-colors"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Technology Section -->
+<section class="py-16 md:py-24 bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-2 gap-10 md:gap-20 items-center">
+<div class="relative">
+<div class="absolute -top-10 -left-10 w-40 h-40 border-t-4 border-l-4 border-primary-fixed/30"></div>
+<img class="w-full h-[600px] object-cover grayscale brightness-75 hover:grayscale-0 transition-all duration-700" data-alt="A close-up photograph of a Heidelberg offset printing machine, showcasing brushed steel gears, metallic rollers, and complex mechanical parts. The lighting is industrial and cold, with sharp highlights reflecting off the polished metal surfaces. In the background, there is a hint of blurred factory activity, emphasizing the machine's precision and heavy-duty manufacturing heritage." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAiklAbRSqh_pfJobQis-m0w6flVyFulXz5iQbg0Rya7GwMntLuTwGPFBiNAGz3yel8bHwEvCF77Pifnx-aLDPJlE0BN8lR6AkXxpdOx4Qc7OvqeJRVo9nhhqJI711JsxVeaVvejPMjgcR5wB6cNGw4YvSujOQDnqcWtJgru8vaoRSc0vysbOB03rOoRcXyzeVDTh4A1QzJir9em-dVM9twnx8uMfvwQ_pjn4I1uQ7who7q2oWIoQRRdD_OdCyp1JvcYiMPe8M0NGM">
+<div class="absolute bottom-6 right-6 bg-primary px-6 py-4">
+<p class="font-label-sm text-on-primary">HEIDELBERG XL-106</p>
+</div>
+</div>
+<div>
+<h2 class="font-display-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-8">Industrial Grade Precision</h2>
+<p class="text-body-lg text-on-surface-variant mb-10 leading-relaxed">
+                        We leverage the world's most advanced Heidelberg technology to deliver microscopic detail at lightning speeds. Every press run is monitored by automated spectral sensors to ensure zero deviation from your original vision.
+                    </p>
+<ul class="space-y-6 mb-12">
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary-fixed">check_circle</span>
+<span class="font-headline-md text-body-md">Automated Ink Flow Control</span>
+</li>
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary-fixed">check_circle</span>
+<span class="font-headline-md text-body-md">18,000 Sheets Per Hour Speed</span>
+</li>
+<li class="flex items-center gap-4">
+<span class="material-symbols-outlined text-primary-fixed">check_circle</span>
+<span class="font-headline-md text-body-md">Instant UV Curing Systems</span>
+</li>
+</ul>
+<button class="border-b-2 border-primary-fixed text-primary font-bold py-1.5 text-sm hover:tracking-widest transition-all">
+                        EXPLORE OUR SPECS
+                    </button>
+</div>
+</div>
+</section>
+<!-- Color System Section -->
+<section class="relative py-20 md:py-32 overflow-hidden bg-background">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10 text-center">
+<h2 class="font-display-lg text-headline-lg-mobile md:text-headline-lg mb-4 text-primary">Advanced Color Precision</h2>
+<p class="font-headline-md text-headline-md text-on-surface-variant mb-16">CMYK, &amp; Pantone Mastery</p>
+<div class="flex flex-wrap justify-center gap-6 md:gap-12">
+<div class="w-32 h-32 md:w-48 md:h-48 rounded-full bg-primary-fixed flex items-center justify-center shadow-[0_0_50px_#00fbfb44] animate-pulse">
+<span class="text-on-primary font-display-lg text-headline-lg">C</span>
+</div>
+<div class="w-32 h-32 md:w-48 md:h-48 rounded-full bg-secondary-container flex items-center justify-center shadow-[0_0_50px_#fe00fe44]">
+<span class="text-on-secondary font-display-lg text-headline-lg">M</span>
+</div>
+<div class="w-32 h-32 md:w-48 md:h-48 rounded-full bg-tertiary-fixed flex items-center justify-center shadow-[0_0_50px_#eaea0044]">
+<span class="text-on-tertiary font-display-lg text-headline-lg">Y</span>
+</div>
+<div class="w-32 h-32 md:w-48 md:h-48 rounded-full bg-surface-container-highest flex items-center justify-center shadow-[0_0_50px_#35353444]">
+<span class="text-on-surface font-display-lg text-headline-lg">K</span>
+</div>
+</div>
+</div>
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-20" data-alt="A mesmerizing close-up of vibrant CMYK and Pantone ink droplets mixing in a clear fluid. Glowing neon RGB light streaks pierce through the deep, dark background. The scene is rich with saturated colors and organic, fluid textures that evoke the feeling of high-end, premium print manufacturing and aesthetic precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2KUSloxIMmUKUB2aibgs8eCcT7NYXWHZDM9Ne_XWkeHfwpAPwRbMFFnkeAwwETMnK5oUEsrfwklnSDZWQ2KGH_1Fpm3lGKbZEEq1MLTQ_OkunzzxKxoAhsZnbmJtfi5nsO_-wR8fxcBGvVuRRlVuW6Fp3M9C4PtPGIG-i9jow1DxnX94t0i-jDsg1lKUXxpz2EkbL_Ro2lvn3Dq7zk1UGUjsppPRNVm8-Z7bKnbA060my6ciJ7dmGqgIwLZpB3dwIkebVb71rzzQ">
+</div>
+</section>
+<!-- Portfolio Bento Grid -->
+<section class="py-16 md:py-24 bg-surface">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<h2 class="font-display-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-16 text-center">Selected Case Studies</h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-gutter">
+<div class="md:col-span-2 md:row-span-2 relative group overflow-hidden glass-card">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" data-alt="Luxury cosmetic packaging mockups featuring matte black rigid boxes with gold foil-stamped lettering. The setting is a minimalist, high-end studio with soft side-lighting that emphasizes the texture of the paper and the metallic gleam of the foil. The image captures the essence of industrial luxury and meticulous attention to detail." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDQGyvwfJOvKdIsOAWV8LzU8zDNJtlepjOrlU8aT0yfUwvVtZQAZw5VDBnIyHSRx5lt9kcnv-9mbghFDCUZkSAquXMfrAqEZjx7TRultn0SCg1KsDy7R29N0AJpXItZYSQ0YF-AUmP-ULuof1weK62I4lqfJaquvzVFl5UclaCTHjNWPw9BI0WXwCWkbS9SKUemvnTtHFIsvYFi5I7AaaC3vpBYs8IOBwFqbynMpMLrAY1oHhutQDhhwpy-tWGomX68lPOU7RWEO54">
+<div class="absolute inset-0 bg-gradient-to-t from-background to-transparent opacity-60"></div>
+<div class="absolute bottom-8 left-8">
+<span class="bg-primary-fixed text-on-primary px-3 py-1 font-label-sm mb-2 inline-block">LUXURY</span>
+<h4 class="font-headline-md text-headline-md text-primary">Aura Cosmetics Packaging</h4>
+</div>
+</div>
+<div class="md:col-span-1 relative group overflow-hidden glass-card">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" data-alt="A premium food packaging design for high-end organic tea. The packaging features a vibrant Pantone-matched emerald green background with delicate metallic silver line art. The box is shown in a crisp, professional product photography style against a dark charcoal background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBsRl4CO7_9cbqk-svanYEubtzIuTih_-zUfXPW6ZippQ_g1o6IDjsoB2UQalRNwgZmjKQkTAzzjb9nFN0bTDnqgG6n2eU0NboJF9-N7aUgbBUxEh8fs3A81cW9qaLje9zjQnT_cUjQUOr91KZlJYD4-xmh8Qb0sfT-88LmstyVK4dcUPI4vWvu4Nr45yCtksUakQFHNCXmU5eM1WmCmemmbBxDGR7D8jV0NN2yYLsREKbx6Jp4QVydzCEh1VgUnc4SVeHnfyYNgsA">
+<div class="absolute bottom-4 left-4">
+<h4 class="font-headline-md text-body-lg text-primary">Zen Tea Series</h4>
+</div>
+</div>
+<div class="md:col-span-1 relative group overflow-hidden glass-card">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" data-alt="Contemporary sneaker box packaging featuring bold, high-contrast CMYK graphics. The design is modern and edgy, with a mix of matte and spot UV finishes that catch the light. The box is positioned at an angle to showcase its structural integrity and premium print quality." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCUNxpQwY6oAGt7X8FfjQgqDtrLOFx2x62kmGpep-Z6nBdlGENjPVTu-EhfReQPlcZ-nzy4MfOdPGYQWQ_BlMGzqE9CGSKF6_R91ZxNThWYbeyFU5XUVpk47H8I-2ICVq2Puil3bhPq7lziacR7BFf9Aj-xO4ADFEqoMEbOnrRRIEFa-3HiOd81exlWZ80sp1YE4lIhV9JP2jRnvzLnAB8YZ9QKN62G9ntxWYEF3PiZ-XGoKjjPoCQ-mUgmxLx5o7EMqNUFUi-cgs4">
+<div class="absolute bottom-4 left-4">
+<h4 class="font-headline-md text-body-lg text-primary">Veloce Footwear Box</h4>
+</div>
+</div>
+<div class="md:col-span-2 relative group overflow-hidden glass-card">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 group-hover:scale-110 transition-all duration-700" data-alt="A collection of high-end corporate brochures and brand stationery spread across a brushed metal surface. The prints feature deep blacks and vibrant Pantone spot colors, showcasing the precision and reliability of the offset printing process. The lighting is crisp, highlighting the clean edges and premium paper stock." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBonEeEcLLWQDge0nOI5bAxqv43GPaEPRnBhBoue7hLVZCu2W8A6iv1omyiKXAGp2A3Bs3RNdNiR9_10szapoYTQenUj8W9MCkK7kQBIqZuzwBuoguNX8DBSbe2zmw9E2z9ECfgNhCdXi3JmAd11n2-6GttWN97NFU1mdkjPEVt18fvEX7oQca14zimwAd3w5h3sGzJFuiJphvkTG4MJ7W8h1Nxm21AH7OfiLbe5WL2D33CCnO6hrLX6Lb5btSL7XiXv1NjARdBmxI">
+<div class="absolute bottom-4 left-4">
+<h4 class="font-headline-md text-body-lg text-primary">Global Tech Brand Identity</h4>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact & Request Quote Section -->
+<section class="py-16 md:py-24 bg-surface-container-low">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop grid md:grid-cols-2 gap-10 md:gap-20">
+<div>
+<h2 class="font-display-lg text-headline-lg-mobile md:text-headline-lg text-primary mb-8">Ready for Production?</h2>
+<p class="text-on-surface-variant text-body-lg mb-12">Submit your specs and our color masters will get back to you with a precision quote within 4 business hours.</p>
+<div class="space-y-8">
+<div class="glass-card p-6 flex gap-6 items-center">
+<div class="w-12 h-12 bg-primary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-primary-container">mail</span>
+</div>
+<div>
+<p class="font-label-sm text-on-surface-variant">EMAIL US</p>
+<p class="font-headline-md text-body-md text-primary">production@offsetpixal.com</p>
+</div>
+</div>
+<div class="glass-card p-6 flex gap-6 items-center">
+<div class="w-12 h-12 bg-secondary-container flex items-center justify-center">
+<span class="material-symbols-outlined text-on-secondary-container">call</span>
+</div>
+<div>
+<p class="font-label-sm text-on-surface-variant">CALL COMMAND</p>
+<p class="font-headline-md text-body-md text-primary">+1 (555) 928-1000</p>
+</div>
+</div>
+</div>
+</div>
+<div class="glass-card p-12">
+<form class="space-y-6">
+<div class="group">
+<label class="font-label-sm text-on-surface-variant uppercase mb-2 block">Full Name</label>
+<input class="w-full bg-background border-b-2 border-outline focus:border-primary-fixed outline-none py-3 px-4 text-primary transition-all" type="text">
+</div>
+<div class="group">
+<label class="font-label-sm text-on-surface-variant uppercase mb-2 block">Company Email</label>
+<input class="w-full bg-background border-b-2 border-outline focus:border-secondary-container outline-none py-3 px-4 text-primary transition-all" type="email">
+</div>
+<div class="group">
+<label class="font-label-sm text-on-surface-variant uppercase mb-2 block">Project Details</label>
+<textarea class="w-full bg-background border-b-2 border-outline focus:border-tertiary-fixed outline-none py-3 px-4 text-primary transition-all" rows="4"></textarea>
+</div>
+<button class="w-full btn-glossy text-on-primary py-4 text-body-lg md:text-headline-md uppercase tracking-widest mt-4" type="submit">
+                            Request Quote
+                        </button>
+</form>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-lowest border-t-4 border-primary-container">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-20 flex flex-col md:flex-row justify-between items-start">
+<div class="mb-12 md:mb-0">
+<div class="mb-6">
+    <img src="logo_full.png" alt="OffsetPixal Logo" class="h-10 w-auto object-contain">
+</div>
+<p class="text-on-surface-variant font-body-md max-w-xs mb-8">Industrial Precision. Precision Packaging. Setting the global standard for offset excellence.</p>
+<div class="flex gap-4">
+<div class="w-10 h-10 border border-outline flex items-center justify-center hover:border-primary transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-on-surface-variant text-xl">share</span>
+</div>
+<div class="w-10 h-10 border border-outline flex items-center justify-center hover:border-primary transition-colors cursor-pointer">
+<span class="material-symbols-outlined text-on-surface-variant text-xl">public</span>
+</div>
+</div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-3 gap-16">
+<div>
+<h5 class="font-label-sm text-on-surface-variant uppercase mb-6">Solutions</h5>
+<ul class="space-y-4">
+<li class=""><a class="text-on-surface-variant hover:text-secondary-fixed transition-colors duration-200 font-body-md" href="#">Services</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-secondary-fixed transition-colors duration-200 font-body-md" href="#">Packaging</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-secondary-fixed transition-colors duration-200 font-body-md" href="#">Finishing</a></li>
+</ul>
+</div>
+<div>
+<h5 class="font-label-sm text-on-surface-variant uppercase mb-6">Company</h5>
+<ul class="space-y-4">
+<li class=""><a class="text-on-surface-variant hover:text-secondary-fixed transition-colors duration-200 font-body-md" href="#">Contact</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-secondary-fixed transition-colors duration-200 font-body-md" href="#">LinkedIn</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-secondary-fixed transition-colors duration-200 font-body-md" href="#">Career</a></li>
+</ul>
+</div>
+<div class="col-span-2 md:col-span-1">
+<h5 class="font-label-sm text-on-surface-variant uppercase mb-6">Legal</h5>
+<ul class="space-y-4">
+<li class=""><a class="text-on-surface-variant hover:text-secondary-fixed transition-colors duration-200 font-body-md" href="#">Privacy Policy</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-secondary-fixed transition-colors duration-200 font-body-md" href="#">Terms of Use</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-8 border-t border-outline-variant/10">
+<p class="font-label-sm text-label-sm text-on-surface-variant">
+                © 2024 OffsetPixal. Industrial Precision. Precision Packaging.
+            </p>
+</div>
+</footer>
+
+
+</body></html>
