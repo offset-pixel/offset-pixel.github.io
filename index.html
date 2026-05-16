@@ -36,6 +36,21 @@
         .cmyk-line {
             background: linear-gradient(90deg, #00B4FF 0%, #FF00E5 50%, #FFD600 100%);
         }
+
+        .brand-watermark {
+            font-size: 15.5vw;
+            line-height: 0.8;
+            opacity: 0.05;
+            color: white;
+            white-space: nowrap;
+            text-transform: uppercase;
+            font-weight: 900;
+            pointer-events: none;
+            user-select: none;
+            display: block;
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+        }
     </style>
 </head>
 
@@ -712,7 +727,7 @@
         </div>
     </section>
     <!-- Footer -->
-    <footer class="py-20 px-4 overflow-hidden md:px-margin-desktop bg-deep-black border-t border-outline/10">
+    <footer class="py-20 pxt-10 overflow-hidden md:px-margin-desktop bg-deep-black border-t border-outline/10">
         <div class="max-w-container-max mx-auto">
             <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
                 <div class="md:col-span-4 space-y-8">
@@ -748,7 +763,16 @@
                 </div>
             </div>
         </div>
+        </div>
     </footer>
+
+    <!-- Massive Brand Watermark (Fully Visible) -->
+    <div
+        class="w-full mt-20 h-auto py-10 pointer-events-none select-none flex items-center justify-center bg-deep-black">
+        <h1 class="brand-watermark font-display text-center w-full">
+            OffsetPixel
+        </h1>
+    </div>
     <script>
         const nav = document.getElementById('main-nav');
         const navContainer = document.getElementById('nav-container');
