@@ -1,10 +1,12 @@
 <html class="scroll-smooth overflow-x-hidden" lang="en">
+
 <head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
     <title>OffsetPixel | Premium Offset Printing &amp; Packaging Solutions</title>
-    <meta name="description" content="OffsetPixel provides premium offset printing and packaging solutions in Ahmedabad. Specializing in luxury boxes, product labels, and bulk commercial printing with Pantone precision.">
-    <link rel="icon" type="image/svg+xml" href="Asset 7.svg">
+    <meta name="description"
+        content="OffsetPixel provides premium offset printing and packaging solutions in Ahmedabad. Specializing in luxury boxes, product labels, and bulk commercial printing with Pantone precision.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
 
     <!-- Performance Optimizations -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -12,656 +14,822 @@
     <link rel="preload" as="image" href="images/hero-printing.jpg" fetchpriority="high">
     <link rel="stylesheet" href="style.css">
 
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet" media="print" onload="this.media='all'"/>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600&amp;display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+        rel="stylesheet" media="print" onload="this.media='all'" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <style>
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
+
         .text-cmyk-gradient {
             background: linear-gradient(90deg, #00B4FF 0%, #FF00E5 50%, #FFD600 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
+
         .cmyk-line {
             background: linear-gradient(90deg, #00B4FF 0%, #FF00E5 50%, #FFD600 100%);
         }
     </style>
 </head>
+
 <body class="bg-deep-black text-paper-white font-body-md overflow-x-hidden">
 
-<!-- Top Navigation -->
-<nav id="main-nav" class="fixed top-0 w-full z-50 bg-deep-black/80 backdrop-blur-md border-b border-outline/10 transition-all duration-300">
-<div class="absolute top-0 left-0 w-full h-[2px] cmyk-line opacity-50"></div>
-<div id="nav-container" class="flex justify-between items-center py-6 px-4 md:px-margin-desktop max-w-container-max mx-auto w-full transition-all duration-300">
-<div class="flex items-center gap-3">
-<img id="nav-logo" src="Asset 7.svg" alt="OffsetPixel Logo" class="h-8 md:h-10 w-auto max-w-[120px] md:max-w-[180px] object-contain transition-all duration-300">
-</div>
-<div class="hidden lg:flex gap-8 items-center">
-<a class="font-label-md text-label-md text-paper-white/70 hover:text-paper-white transition-colors" href="#services">Services</a>
-<a class="font-label-md text-label-md text-paper-white/70 hover:text-paper-white transition-colors" href="#why-us">Why Us</a>
-<a class="font-label-md text-label-md text-paper-white/70 hover:text-paper-white transition-colors" href="#portfolio">Work</a>
-<a class="font-label-md text-label-md text-paper-white/70 hover:text-paper-white transition-colors" href="#about">About</a>
-<a class="font-label-md text-label-md text-paper-white/70 hover:text-paper-white transition-colors" href="#contact">Contact</a>
-</div>
-<div class="flex items-center gap-2 sm:gap-3">
-<a href="#contact" class="hidden sm:block px-4 md:px-6 py-2 border border-outline/30 rounded-lg font-label-md text-label-md hover:border-paper-white hover:bg-paper-white hover:text-deep-black active:scale-95 transition-all text-center">Get Quote</a>
-<a href="https://wa.me/919773074517" target="_blank" class="flex items-center gap-2 bg-[#25D366] text-deep-black px-3 md:px-5 py-2 rounded-lg font-label-md text-label-md font-bold transition-all hover:brightness-110 hover:scale-105 active:scale-95 shadow-lg shadow-[#25D366]/10">
-<span class="material-symbols-outlined text-[18px] md:text-[20px]">chat</span>
-                <span class="hidden md:inline">WhatsApp</span>
-            </a>
-<button id="mobile-menu-btn" class="lg:hidden flex items-center justify-center w-10 h-10 border border-outline/30 rounded-lg text-paper-white hover:bg-surface-variant/10 transition-all">
-<span class="material-symbols-outlined text-[24px]" id="menu-icon">menu</span>
-</button>
-</div>
-</div>
-<!-- Mobile Menu Panel -->
-<div id="mobile-menu" class="hidden lg:hidden absolute top-20 left-0 w-full bg-deep-black/95 backdrop-blur-md border-b border-outline/10 px-4 overflow-hidden py-6 flex-col gap-6 shadow-2xl">
-<a class="font-label-md text-label-md text-paper-white/80 hover:text-paper-white transition-colors" href="#services">Services</a>
-<a class="font-label-md text-label-md text-paper-white/80 hover:text-paper-white transition-colors" href="#why-us">Why Us</a>
-<a class="font-label-md text-label-md text-paper-white/80 hover:text-paper-white transition-colors" href="#portfolio">Work</a>
-<a class="font-label-md text-label-md text-paper-white/80 hover:text-paper-white transition-colors" href="#about">About</a>
-<a class="font-label-md text-label-md text-paper-white/80 hover:text-paper-white transition-colors" href="#contact">Contact</a>
-<a href="#contact" class="w-full mt-2 px-6 py-3 border border-outline/30 rounded-lg font-label-md text-label-md text-center hover:bg-paper-white hover:text-deep-black transition-all">Get Quote</a>
-</div>
-</nav>
-<!-- Hero Section -->
-<section class="relative min-h-screen flex flex-col justify-center pt-20 overflow-hidden w-full">
-<div class="absolute inset-0 w-full h-full opacity-30 pointer-events-none -z-10">
-<img class="w-full h-full object-cover" alt="Offset printing rollers macro" src="images/hero-printing.jpg" width="512" height="512" fetchpriority="high"/>
-</div>
-<div class="px-4 overflow-hidden md:px-margin-desktop max-w-container-max mx-auto w-full">
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
-<div class="lg:col-span-7 space-y-8" data-aos="fade-right">
-<div class="inline-flex items-center gap-2 px-3 py-1 bg-surface-variant/5 border border-outline/10 rounded-full">
-<span class="w-2 h-2 rounded-full bg-cmyk-cyan"></span>
-<span class="text-[10px] font-bold uppercase tracking-widest text-paper-white/60">AHMEDABAD · EST. PRINTING PRESS</span>
-</div>
-<h1 class="font-display text-[36px] sm:text-[42px] md:text-[68px] leading-[1.1] md:leading-[1.05] font-extrabold text-paper-white">
-                Premium <span class="text-cmyk-cyan">Offset</span> <span class="text-cmyk-magenta">Printing</span><br/>
-                &amp; Packaging <span class="text-cmyk-yellow">Solutions</span>
-</h1>
-<p class="font-body-lg text-body-lg text-paper-white/60 max-w-xl">
-                High-quality box printing, labels, brochures and Pantone-precision printing for businesses, brands and manufacturers — built on modern presses and trusted by 500+ clients.
-            </p>
-<div class="flex flex-col sm:flex-row gap-4">
-<a href="#contact" class="flex items-center justify-center gap-2 bg-paper-white text-deep-black px-8 py-3.5 rounded-lg font-label-md text-label-md font-bold hover:bg-white hover:scale-105 active:scale-95 transition-all group shadow-xl">
-                    Get a Quote
-                    <span class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
-</a>
-<a href="https://wa.me/919773074517" target="_blank" class="flex items-center justify-center gap-2 bg-[#25D366] text-deep-black px-8 py-3.5 rounded-lg font-label-md text-label-md font-bold hover:brightness-110 hover:scale-105 active:scale-95 transition-all shadow-xl shadow-[#25D366]/20">
-<span class="material-symbols-outlined">chat</span>
-                    WhatsApp Us
+    <!-- Top Navigation -->
+    <nav id="main-nav"
+        class="fixed top-0 w-full z-50 bg-deep-black/80 backdrop-blur-md border-b border-outline/10 transition-all duration-300">
+        <div class="absolute top-0 left-0 w-full h-[2px] cmyk-line opacity-50"></div>
+        <div id="nav-container"
+            class="flex justify-between items-center py-6 px-4 md:px-margin-desktop max-w-container-max mx-auto w-full transition-all duration-300">
+            <div class="flex items-center gap-3">
+                <img id="nav-logo" src="logo.svg" alt="OffsetPixel Logo"
+                    class="h-8 md:h-10 w-auto max-w-[120px] md:max-w-[180px] object-contain transition-all duration-300">
+            </div>
+            <div class="hidden lg:flex gap-8 items-center">
+                <a class="font-label-md text-label-md text-paper-white/70 hover:text-paper-white transition-colors"
+                    href="#services">Services</a>
+                <a class="font-label-md text-label-md text-paper-white/70 hover:text-paper-white transition-colors"
+                    href="#why-us">Why Us</a>
+                <a class="font-label-md text-label-md text-paper-white/70 hover:text-paper-white transition-colors"
+                    href="#portfolio">Work</a>
+                <a class="font-label-md text-label-md text-paper-white/70 hover:text-paper-white transition-colors"
+                    href="#about">About</a>
+                <a class="font-label-md text-label-md text-paper-white/70 hover:text-paper-white transition-colors"
+                    href="#contact">Contact</a>
+            </div>
+            <div class="flex items-center gap-2 sm:gap-3">
+                <a href="#contact"
+                    class="hidden sm:block px-4 md:px-6 py-2 border border-outline/30 rounded-lg font-label-md text-label-md hover:border-paper-white hover:bg-paper-white hover:text-deep-black active:scale-95 transition-all text-center">Get
+                    Quote</a>
+                <a href="https://wa.me/919773074517" target="_blank"
+                    class="flex items-center gap-2 bg-[#25D366] text-deep-black px-3 md:px-5 py-2 rounded-lg font-label-md text-label-md font-bold transition-all hover:brightness-110 hover:scale-105 active:scale-95 shadow-lg shadow-[#25D366]/10">
+                    <span class="material-symbols-outlined text-[18px] md:text-[20px]">chat</span>
+                    <span class="hidden md:inline">WhatsApp</span>
                 </a>
-</div>
-</div>
-<div class="lg:col-span-5" data-aos="fade-left" data-aos-delay="200">
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl backdrop-blur-md relative overflow-hidden">
-<div class="absolute top-0 left-0 w-full h-1 cmyk-line"></div>
-<p class="text-[10px] font-bold uppercase tracking-[0.2em] text-paper-white/40 mb-8">What We Deliver</p>
-<ul class="space-y-8">
-<li class="flex gap-4">
-<div class="w-10 h-10 flex-shrink-0 bg-cmyk-cyan/10 border border-cmyk-cyan/20 rounded-lg flex items-center justify-center">
-<span class="material-symbols-outlined text-cmyk-cyan text-[20px]">palette</span>
-</div>
-<div>
-<h4 class="font-bold text-[15px] text-paper-white">Pantone-precision colour</h4>
-<p class="text-[13px] text-paper-white/50">Calibrated CMYK + spot-colour matching.</p>
-</div>
-</li>
-<li class="flex gap-4">
-<div class="w-10 h-10 flex-shrink-0 bg-cmyk-magenta/10 border border-cmyk-magenta/20 rounded-lg flex items-center justify-center">
-<span class="material-symbols-outlined text-cmyk-magenta text-[20px]">verified_user</span>
-</div>
-<div>
-<h4 class="font-bold text-[15px] text-paper-white">Premium finishing</h4>
-<p class="text-[13px] text-paper-white/50">UV, foil, emboss, lamination — in-house.</p>
-</div>
-</li>
-<li class="flex gap-4">
-<div class="w-10 h-10 flex-shrink-0 bg-cmyk-yellow/10 border border-cmyk-yellow/20 rounded-lg flex items-center justify-center">
-<span class="material-symbols-outlined text-cmyk-yellow text-[20px]">local_shipping</span>
-</div>
-<div>
-<h4 class="font-bold text-[15px] text-paper-white">Fast bulk delivery</h4>
-<p class="text-[13px] text-paper-white/50">Pan-India dispatch from Ahmedabad.</p>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</div>
-<!-- Stats Bar -->
-<div class="grid grid-cols-1 md:grid-cols-3 gap-12 py-16 border-t border-outline/10 mt-20 overflow-hidden" data-aos="fade-up" data-aos-delay="400">
-<div>
-<p class="font-display text-[48px] font-extrabold text-paper-white">500+</p>
-<p class="text-[11px] font-bold uppercase tracking-[0.2em] text-paper-white/40">Clients</p>
-</div>
-<div>
-<p class="font-display text-[48px] font-extrabold text-paper-white">10K+</p>
-<p class="text-[11px] font-bold uppercase tracking-[0.2em] text-paper-white/40">Orders</p>
-</div>
-<div>
-<p class="font-display text-[48px] font-extrabold text-paper-white">99%</p>
-<p class="text-[11px] font-bold uppercase tracking-[0.2em] text-paper-white/40">Color Accuracy</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Services Grid -->
-<section class="py-24 px-4 overflow-hidden md:px-margin-desktop bg-deep-black" id="services">
-<div class="max-w-container-max mx-auto">
-<div class="max-w-3xl mb-16 space-y-4" data-aos="fade-up">
-<div class="flex items-center gap-4">
-<div class="h-[2px] w-8 cmyk-line"></div>
-<span class="text-[11px] font-black uppercase tracking-[0.3em] text-cmyk-cyan">Services</span>
-</div>
-<h3 class="font-display text-[40px] md:text-[54px] font-extrabold leading-tight">Everything your brand needs to print, packed in one press.</h3>
-<p class="font-body-md text-body-md text-paper-white/50 max-w-2xl">From mono-carton packaging to Pantone-perfect brochures — we handle the full production pipeline in-house.</p>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-<!-- Service Cards -->
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer" data-aos="fade-up">
-<div class="w-10 h-10 bg-cmyk-cyan/10 rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-cmyk-cyan text-[20px]">print</span>
-</div>
-<h4 class="font-bold text-[18px] mb-2">Offset Printing</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">Sheet-fed offset for sharp, consistent volume runs.</p>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer" data-aos="fade-up">
-<div class="w-10 h-10 bg-cmyk-magenta/10 rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-cmyk-magenta text-[20px]">inventory_2</span>
-</div>
-<h4 class="font-bold text-[18px] mb-2">Packaging Box Printing</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">Mono cartons, rigid boxes &amp; corrugated packaging.</p>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer" data-aos="fade-up">
-<div class="w-10 h-10 bg-cmyk-yellow/10 rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-cmyk-yellow text-[20px]">label</span>
-</div>
-<h4 class="font-bold text-[18px] mb-2">Product Labels &amp; Stickers</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">Roll-form &amp; sheet labels with premium adhesives.</p>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer" data-aos="fade-up">
-<div class="w-10 h-10 bg-cmyk-cyan/10 rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-cmyk-cyan text-[20px]">palette</span>
-</div>
-<h4 class="font-bold text-[18px] mb-2">Pantone Printing</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">Spot colour matching for brand-perfect output.</p>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer" data-aos="fade-up">
-<div class="w-10 h-10 bg-cmyk-magenta/10 rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-cmyk-magenta text-[20px]">auto_awesome</span>
-</div>
-<h4 class="font-bold text-[18px] mb-2">UV &amp; Foil Printing</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">Spot UV, hot foil and metallic finishes.</p>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer" data-aos="fade-up">
-<div class="w-10 h-10 bg-cmyk-yellow/10 rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-cmyk-yellow text-[20px]">description</span>
-</div>
-<h4 class="font-bold text-[18px] mb-2">Brochures &amp; Flyers</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">Bi-fold, tri-fold, catalogues and marketing collateral.</p>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer" data-aos="fade-up">
-<div class="w-10 h-10 bg-cmyk-cyan/10 rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-cmyk-cyan text-[20px]">business_center</span>
-</div>
-<h4 class="font-bold text-[18px] mb-2">Business Printing</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">Letterheads, business cards, envelopes &amp; forms.</p>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer" data-aos="fade-up">
-<div class="w-10 h-10 bg-cmyk-magenta/10 rounded-lg flex items-center justify-center mb-6">
-<span class="material-symbols-outlined text-cmyk-magenta text-[20px]">layers</span>
-</div>
-<h4 class="font-bold text-[18px] mb-2">Bulk Order Printing</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">Wholesale runs with tight turnaround for traders.</p>
-</div>
-</div>
-</div>
-</section>
-<!-- Why Us Section -->
-<section class="py-24 px-4 overflow-hidden md:px-margin-desktop bg-deep-black" id="why-us">
-<div class="max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20">
-<div class="space-y-8" data-aos="fade-right">
-<div class="flex items-center gap-4">
-<div class="h-[2px] w-8 cmyk-line"></div>
-<span class="text-[11px] font-black uppercase tracking-[0.3em] text-cmyk-magenta">Why OffsetPixel</span>
-</div>
-<h3 class="font-display text-[40px] md:text-[54px] font-extrabold leading-tight">Built for brands that take their print seriously.</h3>
-<p class="font-body-md text-body-md text-paper-white/50">We combine production-grade equipment with skilled press operators — so what arrives on your dock matches the proof on your screen.</p>
-<div class="rounded-2xl overflow-hidden border border-outline/10 shadow-2xl">
-<img class="w-full aspect-[4/3] object-cover" data-alt="CMYK ink rollers" src="images/ink-rollers.jpg" alt="CMYK ink rollers"/>
-</div>
-</div>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-4 h-fit" data-aos="fade-left" data-aos-delay="200">
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl flex flex-col items-start gap-4 hover:bg-surface-variant/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
-<span class="material-symbols-outlined opacity-30">inventory</span>
-<div>
-<h4 class="font-bold text-[18px] mb-1">1000+ Bulk Orders</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">Trusted by wholesalers for high-volume runs.</p>
-</div>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl flex flex-col items-start gap-4 hover:bg-surface-variant/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
-<span class="material-symbols-outlined opacity-30">verified</span>
-<div>
-<h4 class="font-bold text-[18px] mb-1">Premium Print Quality</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">Sharp dot-gain control and crisp registration.</p>
-</div>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl flex flex-col items-start gap-4 hover:bg-surface-variant/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
-<span class="material-symbols-outlined opacity-30">local_shipping</span>
-<div>
-<h4 class="font-bold text-[18px] mb-1">Fast Delivery</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">Pan-India logistics with reliable timelines.</p>
-</div>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl flex flex-col items-start gap-4 hover:bg-surface-variant/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
-<span class="material-symbols-outlined opacity-30">palette</span>
-<div>
-<h4 class="font-bold text-[18px] mb-1">Pantone Color Accuracy</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">True spot-colour matching, every batch.</p>
-</div>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl flex flex-col items-start gap-4 hover:bg-surface-variant/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
-<span class="material-symbols-outlined opacity-30">settings</span>
-<div>
-<h4 class="font-bold text-[18px] mb-1">Modern Machinery</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">Multi-colour offset presses with auto-calibration.</p>
-</div>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl flex flex-col items-start gap-4 hover:bg-surface-variant/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
-<span class="material-symbols-outlined opacity-30">check_circle</span>
-<div>
-<h4 class="font-bold text-[18px] mb-1">Professional Finishing</h4>
-<p class="text-[13px] text-paper-white/40 leading-relaxed">UV, foil, lamination, die-cut and binding in-house.</p>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Selected Work Section -->
-<section class="py-24 px-4 overflow-hidden md:px-margin-desktop bg-deep-black" id="portfolio">
-<div class="max-w-container-max mx-auto">
-<div class="mb-16 space-y-4" data-aos="fade-up">
-<div class="flex items-center gap-4">
-<div class="h-[2px] w-8 cmyk-line"></div>
-<span class="text-[11px] font-black uppercase tracking-[0.3em] text-cmyk-yellow">Selected Work</span>
-</div>
-<h3 class="font-display text-[40px] md:text-[54px] font-extrabold leading-tight">Print that earns shelf space.</h3>
-<p class="font-body-md text-body-md text-paper-white/50">A snapshot of recent jobs across packaging, labels and commercial print.</p>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-[300px] md:auto-rows-auto">
-<div class="md:row-span-2 relative rounded-xl overflow-hidden group border border-outline/10" data-aos="zoom-in">
-<img class="w-full h-full object-cover grayscale-[0.2] group-hover:scale-105 transition-transform duration-700" data-alt="Cosmetic Packaging" src="images/cosmetic-packaging.jpg" alt="Cosmetic Packaging"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-<div class="absolute bottom-0 left-0 p-8">
-<p class="text-[10px] font-bold text-paper-white/50 uppercase tracking-[0.2em] mb-1">COSMETICS</p>
-<h4 class="font-bold text-[22px] text-paper-white">Luxury Packaging Boxes</h4>
-</div>
-</div>
-<div class="relative rounded-xl overflow-hidden group border border-outline/10" data-aos="zoom-in" data-aos-delay="100">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Wine Labels" src="images/product-labels.jpg" alt="Wine Labels"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-<div class="absolute bottom-0 left-0 p-8">
-<p class="text-[10px] font-bold text-paper-white/50 uppercase tracking-[0.2em] mb-1">BEVERAGES</p>
-<h4 class="font-bold text-[22px] text-paper-white">Premium Product Labels</h4>
-</div>
-</div>
-<div class="relative rounded-xl overflow-hidden group border border-outline/10" data-aos="zoom-in" data-aos-delay="100">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Brochures" src="images/catalogues-brochures.jpg" alt="Brochures"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-<div class="absolute bottom-0 left-0 p-8">
-<p class="text-[10px] font-bold text-paper-white/50 uppercase tracking-[0.2em] mb-1">MARKETING</p>
-<h4 class="font-bold text-[22px] text-paper-white">Catalogues &amp; Brochures</h4>
-</div>
-</div>
-<div class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
-<div class="relative rounded-xl overflow-hidden group border border-outline/10" data-aos="zoom-in" data-aos-delay="100">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Business Cards" src="images/business-cards.jpg" alt="Business Cards"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-<div class="absolute bottom-0 left-0 p-8">
-<p class="text-[10px] font-bold text-paper-white/50 uppercase tracking-[0.2em] mb-1">BUSINESS</p>
-<h4 class="font-bold text-[22px] text-paper-white">Foiled Business Cards</h4>
-</div>
-</div>
-<div class="relative rounded-xl overflow-hidden group border border-outline/10" data-aos="zoom-in" data-aos-delay="100">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Food Packaging" src="images/pharma-food-cartons.jpg" alt="Food Packaging"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-<div class="absolute bottom-0 left-0 p-8">
-<p class="text-[10px] font-bold text-paper-white/50 uppercase tracking-[0.2em] mb-1">PHARMA · FOOD</p>
-<h4 class="font-bold text-[22px] text-paper-white">Pharma &amp; Food Cartons</h4>
-</div>
-</div>
-</div>
-<div class="relative rounded-xl overflow-hidden group border border-outline/10" data-aos="zoom-in" data-aos-delay="100">
-<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Press Facility" src="images/press-facility.jpg" alt="Press Facility"/>
-<div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
-<div class="absolute bottom-0 left-0 p-8">
-<p class="text-[10px] font-bold text-paper-white/50 uppercase tracking-[0.2em] mb-1">PROCESS</p>
-<h4 class="font-bold text-[22px] text-paper-white">In-House Production</h4>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- About Section -->
-<section class="py-24 px-4 overflow-hidden md:px-margin-desktop bg-deep-black" id="about">
-<div class="max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20">
-<div class="space-y-8" data-aos="fade-right">
-<div class="flex items-center gap-4">
-<div class="h-[2px] w-8 cmyk-line"></div>
-<span class="text-[11px] font-black uppercase tracking-[0.3em] text-cmyk-cyan">About OffsetPixel</span>
-</div>
-<h3 class="font-display text-[40px] md:text-[54px] font-extrabold leading-tight">A printing press built around brands and manufacturers.</h3>
-<p class="font-body-md text-body-md text-paper-white/50">OffsetPixel is a professional offset printing and packaging company based in Ahmedabad, specializing in bulk commercial printing and premium packaging solutions. We work with cosmetic, food, pharmaceutical and wholesale clients who need consistent quality at scale.</p>
-<div class="grid grid-cols-1 sm:grid-cols-3 gap-8 py-10 border-t border-outline/10">
-<div>
-<p class="font-display text-[32px] font-extrabold">12+</p>
-<p class="text-[10px] font-bold uppercase tracking-widest text-paper-white/40">YEARS IN PRINT</p>
-</div>
-<div>
-<p class="font-display text-[32px] font-extrabold">8-colour</p>
-<p class="text-[10px] font-bold uppercase tracking-widest text-paper-white/40">OFFSET PRESSES</p>
-</div>
-<div>
-<p class="font-display text-[32px] font-extrabold">ISO</p>
-<p class="text-[10px] font-bold uppercase tracking-widest text-paper-white/40">QUALITY PROCESS</p>
-</div>
-</div>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-10 rounded-2xl relative overflow-hidden flex flex-col justify-center" data-aos="fade-left" data-aos-delay="200">
-<div class="absolute top-0 left-0 w-full h-[2px] cmyk-line"></div>
-<p class="text-[10px] font-bold uppercase tracking-[0.2em] text-paper-white/40 mb-10">INDUSTRIES WE PRINT FOR</p>
-<div class="grid grid-cols-1 sm:grid-cols-2 gap-y-6">
-<div class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
-<span class="text-[14px] font-bold">Cosmetic brands</span>
-</div>
-<div class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
-<span class="text-[14px] font-bold">Food &amp; beverage</span>
-</div>
-<div class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
-<span class="text-[14px] font-bold">Pharmaceutical</span>
-</div>
-<div class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
-<span class="text-[14px] font-bold">Wholesale &amp; traders</span>
-</div>
-<div class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
-<span class="text-[14px] font-bold">FMCG manufacturers</span>
-</div>
-<div class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
-<span class="text-[14px] font-bold">Local businesses</span>
-</div>
-<div class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
-<span class="text-[14px] font-bold">Packaging brands</span>
-</div>
-<div class="flex items-center gap-3">
-<span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
-<span class="text-[14px] font-bold">Retail chains</span>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Testimonials Section -->
-<section class="py-24 px-4 overflow-hidden md:px-margin-desktop bg-deep-black">
-<div class="max-w-container-max mx-auto">
-<div class="mb-16 space-y-4" data-aos="fade-up">
-<div class="flex items-center gap-4">
-<div class="h-[2px] w-8 cmyk-line"></div>
-<span class="text-[11px] font-black uppercase tracking-[0.3em] text-paper-white/50">Trusted By</span>
-</div>
-<h3 class="font-display text-[40px] md:text-[54px] font-extrabold leading-tight">500+ brands print with OffsetPixel.</h3>
-</div>
-<div class="flex flex-wrap items-center gap-6 sm:gap-12 mb-24 opacity-30 justify-center md:justify-between grayscale">
-<span class="text-[20px] font-black tracking-widest uppercase">ATLAS TRADERS</span>
-<span class="text-[20px] font-black tracking-widest uppercase">AURA COSMETICS</span>
-<span class="text-[20px] font-black tracking-widest uppercase">PINEWOOD FOODS</span>
-<span class="text-[20px] font-black tracking-widest uppercase">MEDLINE PHARMA</span>
-<span class="text-[20px] font-black tracking-widest uppercase">KRAFT &amp; CO</span>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-<div class="bg-surface-variant/5 border border-outline/10 p-10 rounded-2xl relative group hover:-translate-y-2 hover:shadow-2xl transition-all duration-300" data-aos="fade-up">
-<span class="material-symbols-outlined text-cmyk-magenta/20 text-[40px] absolute top-8 left-8">format_quote</span>
-<div class="mt-12 space-y-6">
-<p class="text-[18px] leading-relaxed italic text-paper-white/80">"OffsetPixel handled 50,000 cosmetic cartons with perfect Pantone matching. Re-ordered four times this year."</p>
-<div class="pt-6 border-t border-outline/10">
-<p class="font-bold text-[16px]">Riya Shah</p>
-<p class="text-[12px] text-paper-white/40 uppercase tracking-widest">Brand Manager, AURA Cosmetics</p>
-</div>
-</div>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-10 rounded-2xl relative group hover:-translate-y-2 hover:shadow-2xl transition-all duration-300" data-aos="fade-up">
-<span class="material-symbols-outlined text-cmyk-magenta/20 text-[40px] absolute top-8 left-8">format_quote</span>
-<div class="mt-12 space-y-6">
-<p class="text-[18px] leading-relaxed italic text-paper-white/80">"Sharp registration, clean foiling and on-time delivery — exactly what our pharma packaging compliance needs."</p>
-<div class="pt-6 border-t border-outline/10">
-<p class="font-bold text-[16px]">Anil Mehta</p>
-<p class="text-[12px] text-paper-white/40 uppercase tracking-widest">Procurement, Medline Pharma</p>
-</div>
-</div>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-10 rounded-2xl relative group hover:-translate-y-2 hover:shadow-2xl transition-all duration-300" data-aos="fade-up">
-<span class="material-symbols-outlined text-cmyk-magenta/20 text-[40px] absolute top-8 left-8">format_quote</span>
-<div class="mt-12 space-y-6">
-<p class="text-[18px] leading-relaxed italic text-paper-white/80">"We moved all our brochure and catalogue print here. Quality jumped, and the per-unit cost dropped."</p>
-<div class="pt-6 border-t border-outline/10">
-<p class="font-bold text-[16px]">Karan Patel</p>
-<p class="text-[12px] text-paper-white/40 uppercase tracking-widest">Director, Northpoint Retail</p>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<!-- Contact Section -->
-<section class="py-24 px-4 overflow-hidden md:px-margin-desktop bg-deep-black" id="contact">
-<div class="max-w-container-max mx-auto">
-<div class="mb-16 space-y-4" data-aos="fade-up">
-<div class="flex items-center gap-4">
-<div class="h-[2px] w-8 cmyk-line"></div>
-<span class="text-[11px] font-black uppercase tracking-[0.3em] text-cmyk-magenta">Get A Quote</span>
-</div>
-<h3 class="font-display text-[40px] md:text-[54px] font-extrabold leading-tight">Tell us about your print job.</h3>
-<p class="font-body-md text-body-md text-paper-white/50">Share your specs and we'll respond with pricing within 4 working hours.</p>
-</div>
-<div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
-<!-- Info Column -->
-<div class="lg:col-span-4 space-y-4" data-aos="fade-right">
-<div class="bg-surface-variant/5 border border-outline/10 p-6 rounded-xl flex items-center gap-5 hover:bg-surface-variant/10 transition-colors">
-<div class="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center">
-<span class="material-symbols-outlined text-[18px] opacity-40">call</span>
-</div>
-<div>
-<p class="text-[10px] font-bold text-white/40 uppercase tracking-widest">CALL</p>
-<p class="font-bold text-[15px]">+91 9773074517</p>
-</div>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-6 rounded-xl flex items-center gap-5 hover:bg-surface-variant/10 transition-colors">
-<div class="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center">
-<span class="material-symbols-outlined text-[18px] opacity-40">chat</span>
-</div>
-<div>
-<p class="text-[10px] font-bold text-white/40 uppercase tracking-widest">WHATSAPP</p>
-<a href="https://wa.me/919773074517" target="_blank" class="font-bold text-[15px] hover:text-cmyk-cyan transition-colors">Chat with sales</a>
-</div>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-6 rounded-xl flex items-center gap-5 hover:bg-surface-variant/10 transition-colors">
-<div class="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center">
-<span class="material-symbols-outlined text-[18px] opacity-40">mail</span>
-</div>
-<div>
-<p class="text-[10px] font-bold text-white/40 uppercase tracking-widest">EMAIL</p>
-<p class="font-bold text-[15px]">contact@offsetpixel.in</p>
-</div>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-6 rounded-xl flex items-center gap-5 hover:bg-surface-variant/10 transition-colors">
-<div class="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center">
-<span class="material-symbols-outlined text-[18px] opacity-40">location_on</span>
-</div>
-<div>
-<p class="text-[10px] font-bold text-white/40 uppercase tracking-widest">PRESS</p>
-<p class="font-bold text-[15px]">Ahmedabad, Gujarat — India</p>
-</div>
-</div>
-<div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl space-y-4">
-<p class="text-[11px] font-black uppercase tracking-widest text-white/40">WORKING HOURS</p>
-<p class="font-bold text-[15px]">Mon – Sat · 10:00 — 19:00 IST</p>
-<p class="text-[12px] text-white/30 leading-relaxed">Bulk inquiries answered within 4 hours.</p>
-</div>
-</div>
-<!-- Form Column -->
-<div class="lg:col-span-8 bg-surface-variant/5 border border-outline/10 p-10 rounded-2xl hover:shadow-xl transition-all duration-500" data-aos="fade-left" data-aos-delay="200">
-<form class="space-y-8" id="quote-form">
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<div class="space-y-2">
-<label class="text-[11px] font-black uppercase tracking-widest text-white/40">Full Name</label>
-<input id="q-name" class="w-full bg-black/40 border border-outline/10 rounded-lg px-4 py-3 text-white focus:border-cmyk-cyan focus:ring-0 transition-all outline-none" placeholder="Your name" type="text" required/>
-</div>
-<div class="space-y-2">
-<label class="text-[11px] font-black uppercase tracking-widest text-white/40">Phone</label>
-<input id="q-phone" class="w-full bg-black/40 border border-outline/10 rounded-lg px-4 py-3 text-white focus:border-cmyk-cyan focus:ring-0 transition-all outline-none" placeholder="+91 ..." type="text" required/>
-</div>
-</div>
-<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-<div class="space-y-2">
-<label class="text-[11px] font-black uppercase tracking-widest text-white/40">Email</label>
-<input id="q-email" class="w-full bg-black/40 border border-outline/10 rounded-lg px-4 py-3 text-white focus:border-cmyk-cyan focus:ring-0 transition-all outline-none" placeholder="you@brand.com" type="email"/>
-</div>
-<div class="space-y-2">
-<label class="text-[11px] font-black uppercase tracking-widest text-white/40">Service</label>
-<input id="q-service" class="w-full bg-black/40 border border-outline/10 rounded-lg px-4 py-3 text-white focus:border-cmyk-cyan focus:ring-0 transition-all outline-none" placeholder="e.g. Mono carton, 25K units" type="text"/>
-</div>
-</div>
-<div class="space-y-2">
-<label class="text-[11px] font-black uppercase tracking-widest text-white/40">Project Details</label>
-<textarea id="q-details" class="w-full bg-black/40 border border-outline/10 rounded-lg px-4 py-3 text-white focus:border-cmyk-cyan focus:ring-0 transition-all outline-none resize-none" placeholder="Sizes, GSM, colors, finishing, quantity, deadline..." rows="5" required></textarea>
-</div>
-<div class="flex flex-col gap-6">
-<button type="submit" class="bg-paper-white text-deep-black px-10 py-4 rounded-lg font-bold text-[14px] flex items-center justify-center gap-3 self-start hover:bg-white hover:scale-105 active:scale-95 transition-all shadow-xl hover:shadow-paper-white/20">
-                            Send inquiry via WhatsApp
-                            <span class="material-symbols-outlined text-[18px]">send</span>
-</button>
-<p class="text-[11px] text-white/30">By submitting you agree to be contacted about your inquiry.</p>
-</div>
-</form>
-</div>
-</div>
-</div>
-</section>
-<!-- Footer -->
-<footer class="py-20 px-4 overflow-hidden md:px-margin-desktop bg-deep-black border-t border-outline/10">
-<div class="max-w-container-max mx-auto">
-<div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
-<div class="md:col-span-4 space-y-8">
-<div class="flex items-center gap-3">
-<img src="Asset 7.svg" alt="OffsetPixel Logo" class="h-8 md:h-10 w-auto object-contain">
-</div>
-<p class="text-body-md text-white/50 max-w-xs leading-relaxed">Premium offset printing &amp; packaging from Ahmedabad. Built for brands, manufacturers and bulk buyers.</p>
-<div class="flex gap-4">
-<a class="w-10 h-10 border border-outline/20 rounded-lg flex items-center justify-center text-white/40 hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-[18px]">public</span></a>
-<a class="w-10 h-10 border border-outline/20 rounded-lg flex items-center justify-center text-white/40 hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-[18px]">linked_camera</span></a>
-<a class="w-10 h-10 border border-outline/20 rounded-lg flex items-center justify-center text-white/40 hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-[18px]">work</span></a>
-<a class="w-10 h-10 border border-outline/20 rounded-lg flex items-center justify-center text-white/40 hover:text-white transition-all" href="#"><span class="material-symbols-outlined text-[18px]">alternate_email</span></a>
-</div>
-</div>
-<div class="md:col-span-2">
-<h5 class="text-[11px] font-black uppercase tracking-[0.2em] mb-8 text-white/40">Quick Links</h5>
-<ul class="space-y-4">
-<li><a class="text-[14px] text-white/70 hover:text-white transition-all" href="#services">Services</a></li>
-<li><a class="text-[14px] text-white/70 hover:text-white transition-all" href="#why-us">Why Us</a></li>
-<li><a class="text-[14px] text-white/70 hover:text-white transition-all" href="#portfolio">Portfolio</a></li>
-<li><a class="text-[14px] text-white/70 hover:text-white transition-all" href="#about">About</a></li>
-<li></li></ul></div></div></div></footer>
-<script>
-    const nav = document.getElementById('main-nav');
-    const navContainer = document.getElementById('nav-container');
-    const navLogo = document.getElementById('nav-logo');
-    const mobileMenuBtn = document.getElementById('mobile-menu-btn');
-    const mobileMenu = document.getElementById('mobile-menu');
-    const menuIcon = document.getElementById('menu-icon');
+                <button id="mobile-menu-btn"
+                    class="lg:hidden flex items-center justify-center w-10 h-10 border border-outline/30 rounded-lg text-paper-white hover:bg-surface-variant/10 transition-all">
+                    <span class="material-symbols-outlined text-[24px]" id="menu-icon">menu</span>
+                </button>
+            </div>
+        </div>
+        <!-- Mobile Menu Panel -->
+        <div id="mobile-menu"
+            class="hidden lg:hidden absolute top-20 left-0 w-full bg-deep-black/95 backdrop-blur-md border-b border-outline/10 px-4 overflow-hidden py-6 flex-col gap-6 shadow-2xl">
+            <a class="font-label-md text-label-md text-paper-white/80 hover:text-paper-white transition-colors"
+                href="#services">Services</a>
+            <a class="font-label-md text-label-md text-paper-white/80 hover:text-paper-white transition-colors"
+                href="#why-us">Why Us</a>
+            <a class="font-label-md text-label-md text-paper-white/80 hover:text-paper-white transition-colors"
+                href="#portfolio">Work</a>
+            <a class="font-label-md text-label-md text-paper-white/80 hover:text-paper-white transition-colors"
+                href="#about">About</a>
+            <a class="font-label-md text-label-md text-paper-white/80 hover:text-paper-white transition-colors"
+                href="#contact">Contact</a>
+            <a href="#contact"
+                class="w-full mt-2 px-6 py-3 border border-outline/30 rounded-lg font-label-md text-label-md text-center hover:bg-paper-white hover:text-deep-black transition-all">Get
+                Quote</a>
+        </div>
+    </nav>
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex flex-col justify-center pt-20 overflow-hidden w-full">
+        <div class="absolute inset-0 w-full h-full opacity-30 pointer-events-none -z-10">
+            <img class="w-full h-full object-cover" alt="Offset printing rollers macro" src="images/hero-printing.jpg"
+                width="512" height="512" fetchpriority="high" />
+        </div>
+        <div class="px-4 overflow-hidden md:px-margin-desktop max-w-container-max mx-auto w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter items-center">
+                <div class="lg:col-span-7 space-y-8" data-aos="fade-right">
+                    <div
+                        class="inline-flex items-center gap-2 px-3 py-1 bg-surface-variant/5 border border-outline/10 rounded-full">
+                        <span class="w-2 h-2 rounded-full bg-cmyk-cyan"></span>
+                        <span class="text-[10px] font-bold uppercase tracking-widest text-paper-white/60">AHMEDABAD ·
+                            EST. PRINTING PRESS</span>
+                    </div>
+                    <h1
+                        class="font-display text-[36px] sm:text-[42px] md:text-[68px] leading-[1.1] md:leading-[1.05] font-extrabold text-paper-white">
+                        Premium <span class="text-cmyk-cyan">Offset</span> <span
+                            class="text-cmyk-magenta">Printing</span><br />
+                        &amp; Packaging <span class="text-cmyk-yellow">Solutions</span>
+                    </h1>
+                    <p class="font-body-lg text-body-lg text-paper-white/60 max-w-xl">
+                        High-quality box printing, labels, brochures and Pantone-precision printing for businesses,
+                        brands and manufacturers — built on modern presses and trusted by 500+ clients.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4">
+                        <a href="#contact"
+                            class="flex items-center justify-center gap-2 bg-paper-white text-deep-black px-8 py-3.5 rounded-lg font-label-md text-label-md font-bold hover:bg-white hover:scale-105 active:scale-95 transition-all group shadow-xl">
+                            Get a Quote
+                            <span
+                                class="material-symbols-outlined transition-transform group-hover:translate-x-1">arrow_forward</span>
+                        </a>
+                        <a href="https://wa.me/919773074517" target="_blank"
+                            class="flex items-center justify-center gap-2 bg-[#25D366] text-deep-black px-8 py-3.5 rounded-lg font-label-md text-label-md font-bold hover:brightness-110 hover:scale-105 active:scale-95 transition-all shadow-xl shadow-[#25D366]/20">
+                            <span class="material-symbols-outlined">chat</span>
+                            WhatsApp Us
+                        </a>
+                    </div>
+                </div>
+                <div class="lg:col-span-5" data-aos="fade-left" data-aos-delay="200">
+                    <div
+                        class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl backdrop-blur-md relative overflow-hidden">
+                        <div class="absolute top-0 left-0 w-full h-1 cmyk-line"></div>
+                        <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-paper-white/40 mb-8">What We
+                            Deliver</p>
+                        <ul class="space-y-8">
+                            <li class="flex gap-4">
+                                <div
+                                    class="w-10 h-10 flex-shrink-0 bg-cmyk-cyan/10 border border-cmyk-cyan/20 rounded-lg flex items-center justify-center">
+                                    <span class="material-symbols-outlined text-cmyk-cyan text-[20px]">palette</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-[15px] text-paper-white">Pantone-precision colour</h4>
+                                    <p class="text-[13px] text-paper-white/50">Calibrated CMYK + spot-colour matching.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="flex gap-4">
+                                <div
+                                    class="w-10 h-10 flex-shrink-0 bg-cmyk-magenta/10 border border-cmyk-magenta/20 rounded-lg flex items-center justify-center">
+                                    <span
+                                        class="material-symbols-outlined text-cmyk-magenta text-[20px]">verified_user</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-[15px] text-paper-white">Premium finishing</h4>
+                                    <p class="text-[13px] text-paper-white/50">UV, foil, emboss, lamination — in-house.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="flex gap-4">
+                                <div
+                                    class="w-10 h-10 flex-shrink-0 bg-cmyk-yellow/10 border border-cmyk-yellow/20 rounded-lg flex items-center justify-center">
+                                    <span
+                                        class="material-symbols-outlined text-cmyk-yellow text-[20px]">local_shipping</span>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold text-[15px] text-paper-white">Fast bulk delivery</h4>
+                                    <p class="text-[13px] text-paper-white/50">Pan-India dispatch from Ahmedabad.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- Stats Bar -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 py-16 border-t border-outline/10 mt-20 overflow-hidden"
+                data-aos="fade-up" data-aos-delay="400">
+                <div>
+                    <p class="font-display text-[48px] font-extrabold text-paper-white">500+</p>
+                    <p class="text-[11px] font-bold uppercase tracking-[0.2em] text-paper-white/40">Clients</p>
+                </div>
+                <div>
+                    <p class="font-display text-[48px] font-extrabold text-paper-white">10K+</p>
+                    <p class="text-[11px] font-bold uppercase tracking-[0.2em] text-paper-white/40">Orders</p>
+                </div>
+                <div>
+                    <p class="font-display text-[48px] font-extrabold text-paper-white">99%</p>
+                    <p class="text-[11px] font-bold uppercase tracking-[0.2em] text-paper-white/40">Color Accuracy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Services Grid -->
+    <section class="py-24 px-4 overflow-hidden md:px-margin-desktop bg-deep-black" id="services">
+        <div class="max-w-container-max mx-auto">
+            <div class="max-w-3xl mb-16 space-y-4" data-aos="fade-up">
+                <div class="flex items-center gap-4">
+                    <div class="h-[2px] w-8 cmyk-line"></div>
+                    <span class="text-[11px] font-black uppercase tracking-[0.3em] text-cmyk-cyan">Services</span>
+                </div>
+                <h3 class="font-display text-[40px] md:text-[54px] font-extrabold leading-tight">Everything your brand
+                    needs to print, packed in one press.</h3>
+                <p class="font-body-md text-body-md text-paper-white/50 max-w-2xl">From mono-carton packaging to
+                    Pantone-perfect brochures — we handle the full production pipeline in-house.</p>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- Service Cards -->
+                <div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer"
+                    data-aos="fade-up">
+                    <div class="w-10 h-10 bg-cmyk-cyan/10 rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-cmyk-cyan text-[20px]">print</span>
+                    </div>
+                    <h4 class="font-bold text-[18px] mb-2">Offset Printing</h4>
+                    <p class="text-[13px] text-paper-white/40 leading-relaxed">Sheet-fed offset for sharp, consistent
+                        volume runs.</p>
+                </div>
+                <div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer"
+                    data-aos="fade-up">
+                    <div class="w-10 h-10 bg-cmyk-magenta/10 rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-cmyk-magenta text-[20px]">inventory_2</span>
+                    </div>
+                    <h4 class="font-bold text-[18px] mb-2">Packaging Box Printing</h4>
+                    <p class="text-[13px] text-paper-white/40 leading-relaxed">Mono cartons, rigid boxes &amp;
+                        corrugated packaging.</p>
+                </div>
+                <div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer"
+                    data-aos="fade-up">
+                    <div class="w-10 h-10 bg-cmyk-yellow/10 rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-cmyk-yellow text-[20px]">label</span>
+                    </div>
+                    <h4 class="font-bold text-[18px] mb-2">Product Labels &amp; Stickers</h4>
+                    <p class="text-[13px] text-paper-white/40 leading-relaxed">Roll-form &amp; sheet labels with premium
+                        adhesives.</p>
+                </div>
+                <div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer"
+                    data-aos="fade-up">
+                    <div class="w-10 h-10 bg-cmyk-cyan/10 rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-cmyk-cyan text-[20px]">palette</span>
+                    </div>
+                    <h4 class="font-bold text-[18px] mb-2">Pantone Printing</h4>
+                    <p class="text-[13px] text-paper-white/40 leading-relaxed">Spot colour matching for brand-perfect
+                        output.</p>
+                </div>
+                <div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer"
+                    data-aos="fade-up">
+                    <div class="w-10 h-10 bg-cmyk-magenta/10 rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-cmyk-magenta text-[20px]">auto_awesome</span>
+                    </div>
+                    <h4 class="font-bold text-[18px] mb-2">UV &amp; Foil Printing</h4>
+                    <p class="text-[13px] text-paper-white/40 leading-relaxed">Spot UV, hot foil and metallic finishes.
+                    </p>
+                </div>
+                <div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer"
+                    data-aos="fade-up">
+                    <div class="w-10 h-10 bg-cmyk-yellow/10 rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-cmyk-yellow text-[20px]">description</span>
+                    </div>
+                    <h4 class="font-bold text-[18px] mb-2">Brochures &amp; Flyers</h4>
+                    <p class="text-[13px] text-paper-white/40 leading-relaxed">Bi-fold, tri-fold, catalogues and
+                        marketing collateral.</p>
+                </div>
+                <div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer"
+                    data-aos="fade-up">
+                    <div class="w-10 h-10 bg-cmyk-cyan/10 rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-cmyk-cyan text-[20px]">business_center</span>
+                    </div>
+                    <h4 class="font-bold text-[18px] mb-2">Business Printing</h4>
+                    <p class="text-[13px] text-paper-white/40 leading-relaxed">Letterheads, business cards, envelopes
+                        &amp; forms.</p>
+                </div>
+                <div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl hover:bg-surface-variant/10 hover:-translate-y-2 hover:shadow-2xl transition-all duration-300 group cursor-pointer"
+                    data-aos="fade-up">
+                    <div class="w-10 h-10 bg-cmyk-magenta/10 rounded-lg flex items-center justify-center mb-6">
+                        <span class="material-symbols-outlined text-cmyk-magenta text-[20px]">layers</span>
+                    </div>
+                    <h4 class="font-bold text-[18px] mb-2">Bulk Order Printing</h4>
+                    <p class="text-[13px] text-paper-white/40 leading-relaxed">Wholesale runs with tight turnaround for
+                        traders.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Us Section -->
+    <section class="py-24 px-4 overflow-hidden md:px-margin-desktop bg-deep-black" id="why-us">
+        <div class="max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20">
+            <div class="space-y-8" data-aos="fade-right">
+                <div class="flex items-center gap-4">
+                    <div class="h-[2px] w-8 cmyk-line"></div>
+                    <span class="text-[11px] font-black uppercase tracking-[0.3em] text-cmyk-magenta">Why
+                        OffsetPixel</span>
+                </div>
+                <h3 class="font-display text-[40px] md:text-[54px] font-extrabold leading-tight">Built for brands that
+                    take their print seriously.</h3>
+                <p class="font-body-md text-body-md text-paper-white/50">We combine production-grade equipment with
+                    skilled press operators — so what arrives on your dock matches the proof on your screen.</p>
+                <div class="rounded-2xl overflow-hidden border border-outline/10 shadow-2xl">
+                    <img class="w-full aspect-[4/3] object-cover" data-alt="CMYK ink rollers"
+                        src="images/ink-rollers.jpg" alt="CMYK ink rollers" />
+                </div>
+            </div>
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 h-fit" data-aos="fade-left" data-aos-delay="200">
+                <div
+                    class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl flex flex-col items-start gap-4 hover:bg-surface-variant/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                    <span class="material-symbols-outlined opacity-30">inventory</span>
+                    <div>
+                        <h4 class="font-bold text-[18px] mb-1">1000+ Bulk Orders</h4>
+                        <p class="text-[13px] text-paper-white/40 leading-relaxed">Trusted by wholesalers for
+                            high-volume runs.</p>
+                    </div>
+                </div>
+                <div
+                    class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl flex flex-col items-start gap-4 hover:bg-surface-variant/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                    <span class="material-symbols-outlined opacity-30">verified</span>
+                    <div>
+                        <h4 class="font-bold text-[18px] mb-1">Premium Print Quality</h4>
+                        <p class="text-[13px] text-paper-white/40 leading-relaxed">Sharp dot-gain control and crisp
+                            registration.</p>
+                    </div>
+                </div>
+                <div
+                    class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl flex flex-col items-start gap-4 hover:bg-surface-variant/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                    <span class="material-symbols-outlined opacity-30">local_shipping</span>
+                    <div>
+                        <h4 class="font-bold text-[18px] mb-1">Fast Delivery</h4>
+                        <p class="text-[13px] text-paper-white/40 leading-relaxed">Pan-India logistics with reliable
+                            timelines.</p>
+                    </div>
+                </div>
+                <div
+                    class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl flex flex-col items-start gap-4 hover:bg-surface-variant/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                    <span class="material-symbols-outlined opacity-30">palette</span>
+                    <div>
+                        <h4 class="font-bold text-[18px] mb-1">Pantone Color Accuracy</h4>
+                        <p class="text-[13px] text-paper-white/40 leading-relaxed">True spot-colour matching, every
+                            batch.</p>
+                    </div>
+                </div>
+                <div
+                    class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl flex flex-col items-start gap-4 hover:bg-surface-variant/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                    <span class="material-symbols-outlined opacity-30">settings</span>
+                    <div>
+                        <h4 class="font-bold text-[18px] mb-1">Modern Machinery</h4>
+                        <p class="text-[13px] text-paper-white/40 leading-relaxed">Multi-colour offset presses with
+                            auto-calibration.</p>
+                    </div>
+                </div>
+                <div
+                    class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl flex flex-col items-start gap-4 hover:bg-surface-variant/10 hover:-translate-y-1 transition-all duration-300 cursor-pointer">
+                    <span class="material-symbols-outlined opacity-30">check_circle</span>
+                    <div>
+                        <h4 class="font-bold text-[18px] mb-1">Professional Finishing</h4>
+                        <p class="text-[13px] text-paper-white/40 leading-relaxed">UV, foil, lamination, die-cut and
+                            binding in-house.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Selected Work Section -->
+    <section class="py-24 px-4 overflow-hidden md:px-margin-desktop bg-deep-black" id="portfolio">
+        <div class="max-w-container-max mx-auto">
+            <div class="mb-16 space-y-4" data-aos="fade-up">
+                <div class="flex items-center gap-4">
+                    <div class="h-[2px] w-8 cmyk-line"></div>
+                    <span class="text-[11px] font-black uppercase tracking-[0.3em] text-cmyk-yellow">Selected
+                        Work</span>
+                </div>
+                <h3 class="font-display text-[40px] md:text-[54px] font-extrabold leading-tight">Print that earns shelf
+                    space.</h3>
+                <p class="font-body-md text-body-md text-paper-white/50">A snapshot of recent jobs across packaging,
+                    labels and commercial print.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 auto-rows-[300px] md:auto-rows-auto">
+                <div class="md:row-span-2 relative rounded-xl overflow-hidden group border border-outline/10"
+                    data-aos="zoom-in">
+                    <img class="w-full h-full object-cover grayscale-[0.2] group-hover:scale-105 transition-transform duration-700"
+                        data-alt="Cosmetic Packaging" src="images/cosmetic-packaging.jpg" alt="Cosmetic Packaging" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8">
+                        <p class="text-[10px] font-bold text-paper-white/50 uppercase tracking-[0.2em] mb-1">COSMETICS
+                        </p>
+                        <h4 class="font-bold text-[22px] text-paper-white">Luxury Packaging Boxes</h4>
+                    </div>
+                </div>
+                <div class="relative rounded-xl overflow-hidden group border border-outline/10" data-aos="zoom-in"
+                    data-aos-delay="100">
+                    <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                        data-alt="Wine Labels" src="images/product-labels.jpg" alt="Wine Labels" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8">
+                        <p class="text-[10px] font-bold text-paper-white/50 uppercase tracking-[0.2em] mb-1">BEVERAGES
+                        </p>
+                        <h4 class="font-bold text-[22px] text-paper-white">Premium Product Labels</h4>
+                    </div>
+                </div>
+                <div class="relative rounded-xl overflow-hidden group border border-outline/10" data-aos="zoom-in"
+                    data-aos-delay="100">
+                    <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                        data-alt="Brochures" src="images/catalogues-brochures.jpg" alt="Brochures" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8">
+                        <p class="text-[10px] font-bold text-paper-white/50 uppercase tracking-[0.2em] mb-1">MARKETING
+                        </p>
+                        <h4 class="font-bold text-[22px] text-paper-white">Catalogues &amp; Brochures</h4>
+                    </div>
+                </div>
+                <div class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    <div class="relative rounded-xl overflow-hidden group border border-outline/10" data-aos="zoom-in"
+                        data-aos-delay="100">
+                        <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                            data-alt="Business Cards" src="images/business-cards.jpg" alt="Business Cards" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-8">
+                            <p class="text-[10px] font-bold text-paper-white/50 uppercase tracking-[0.2em] mb-1">
+                                BUSINESS</p>
+                            <h4 class="font-bold text-[22px] text-paper-white">Foiled Business Cards</h4>
+                        </div>
+                    </div>
+                    <div class="relative rounded-xl overflow-hidden group border border-outline/10" data-aos="zoom-in"
+                        data-aos-delay="100">
+                        <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                            data-alt="Food Packaging" src="images/pharma-food-cartons.jpg" alt="Food Packaging" />
+                        <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+                        <div class="absolute bottom-0 left-0 p-8">
+                            <p class="text-[10px] font-bold text-paper-white/50 uppercase tracking-[0.2em] mb-1">PHARMA
+                                · FOOD</p>
+                            <h4 class="font-bold text-[22px] text-paper-white">Pharma &amp; Food Cartons</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="relative rounded-xl overflow-hidden group border border-outline/10" data-aos="zoom-in"
+                    data-aos-delay="100">
+                    <img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
+                        data-alt="Press Facility" src="images/press-facility.jpg" alt="Press Facility" />
+                    <div class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-transparent"></div>
+                    <div class="absolute bottom-0 left-0 p-8">
+                        <p class="text-[10px] font-bold text-paper-white/50 uppercase tracking-[0.2em] mb-1">PROCESS</p>
+                        <h4 class="font-bold text-[22px] text-paper-white">In-House Production</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section class="py-24 px-4 overflow-hidden md:px-margin-desktop bg-deep-black" id="about">
+        <div class="max-w-container-max mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20">
+            <div class="space-y-8" data-aos="fade-right">
+                <div class="flex items-center gap-4">
+                    <div class="h-[2px] w-8 cmyk-line"></div>
+                    <span class="text-[11px] font-black uppercase tracking-[0.3em] text-cmyk-cyan">About
+                        OffsetPixel</span>
+                </div>
+                <h3 class="font-display text-[40px] md:text-[54px] font-extrabold leading-tight">A printing press built
+                    around brands and manufacturers.</h3>
+                <p class="font-body-md text-body-md text-paper-white/50">OffsetPixel is a professional offset printing
+                    and packaging company based in Ahmedabad, specializing in bulk commercial printing and premium
+                    packaging solutions. We work with cosmetic, food, pharmaceutical and wholesale clients who need
+                    consistent quality at scale.</p>
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 py-10 border-t border-outline/10">
+                    <div>
+                        <p class="font-display text-[32px] font-extrabold">12+</p>
+                        <p class="text-[10px] font-bold uppercase tracking-widest text-paper-white/40">YEARS IN PRINT
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-display text-[32px] font-extrabold">8-colour</p>
+                        <p class="text-[10px] font-bold uppercase tracking-widest text-paper-white/40">OFFSET PRESSES
+                        </p>
+                    </div>
+                    <div>
+                        <p class="font-display text-[32px] font-extrabold">ISO</p>
+                        <p class="text-[10px] font-bold uppercase tracking-widest text-paper-white/40">QUALITY PROCESS
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="bg-surface-variant/5 border border-outline/10 p-10 rounded-2xl relative overflow-hidden flex flex-col justify-center"
+                data-aos="fade-left" data-aos-delay="200">
+                <div class="absolute top-0 left-0 w-full h-[2px] cmyk-line"></div>
+                <p class="text-[10px] font-bold uppercase tracking-[0.2em] text-paper-white/40 mb-10">INDUSTRIES WE
+                    PRINT FOR</p>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-y-6">
+                    <div class="flex items-center gap-3">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
+                        <span class="text-[14px] font-bold">Cosmetic brands</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
+                        <span class="text-[14px] font-bold">Food &amp; beverage</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
+                        <span class="text-[14px] font-bold">Pharmaceutical</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
+                        <span class="text-[14px] font-bold">Wholesale &amp; traders</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
+                        <span class="text-[14px] font-bold">FMCG manufacturers</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
+                        <span class="text-[14px] font-bold">Local businesses</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
+                        <span class="text-[14px] font-bold">Packaging brands</span>
+                    </div>
+                    <div class="flex items-center gap-3">
+                        <span class="w-1.5 h-1.5 rounded-full bg-cmyk-cyan"></span>
+                        <span class="text-[14px] font-bold">Retail chains</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonials Section -->
+    <section class="py-24 px-4 overflow-hidden md:px-margin-desktop bg-deep-black">
+        <div class="max-w-container-max mx-auto">
+            <div class="mb-16 space-y-4" data-aos="fade-up">
+                <div class="flex items-center gap-4">
+                    <div class="h-[2px] w-8 cmyk-line"></div>
+                    <span class="text-[11px] font-black uppercase tracking-[0.3em] text-paper-white/50">Trusted
+                        By</span>
+                </div>
+                <h3 class="font-display text-[40px] md:text-[54px] font-extrabold leading-tight">500+ brands print with
+                    OffsetPixel.</h3>
+            </div>
+            <div
+                class="flex flex-wrap items-center gap-6 sm:gap-12 mb-24 opacity-30 justify-center md:justify-between grayscale">
+                <span class="text-[20px] font-black tracking-widest uppercase">ATLAS TRADERS</span>
+                <span class="text-[20px] font-black tracking-widest uppercase">AURA COSMETICS</span>
+                <span class="text-[20px] font-black tracking-widest uppercase">PINEWOOD FOODS</span>
+                <span class="text-[20px] font-black tracking-widest uppercase">MEDLINE PHARMA</span>
+                <span class="text-[20px] font-black tracking-widest uppercase">KRAFT &amp; CO</span>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-surface-variant/5 border border-outline/10 p-10 rounded-2xl relative group hover:-translate-y-2 hover:shadow-2xl transition-all duration-300"
+                    data-aos="fade-up">
+                    <span
+                        class="material-symbols-outlined text-cmyk-magenta/20 text-[40px] absolute top-8 left-8">format_quote</span>
+                    <div class="mt-12 space-y-6">
+                        <p class="text-[18px] leading-relaxed italic text-paper-white/80">"OffsetPixel handled 50,000
+                            cosmetic cartons with perfect Pantone matching. Re-ordered four times this year."</p>
+                        <div class="pt-6 border-t border-outline/10">
+                            <p class="font-bold text-[16px]">Riya Shah</p>
+                            <p class="text-[12px] text-paper-white/40 uppercase tracking-widest">Brand Manager, AURA
+                                Cosmetics</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-surface-variant/5 border border-outline/10 p-10 rounded-2xl relative group hover:-translate-y-2 hover:shadow-2xl transition-all duration-300"
+                    data-aos="fade-up">
+                    <span
+                        class="material-symbols-outlined text-cmyk-magenta/20 text-[40px] absolute top-8 left-8">format_quote</span>
+                    <div class="mt-12 space-y-6">
+                        <p class="text-[18px] leading-relaxed italic text-paper-white/80">"Sharp registration, clean
+                            foiling and on-time delivery — exactly what our pharma packaging compliance needs."</p>
+                        <div class="pt-6 border-t border-outline/10">
+                            <p class="font-bold text-[16px]">Anil Mehta</p>
+                            <p class="text-[12px] text-paper-white/40 uppercase tracking-widest">Procurement, Medline
+                                Pharma</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-surface-variant/5 border border-outline/10 p-10 rounded-2xl relative group hover:-translate-y-2 hover:shadow-2xl transition-all duration-300"
+                    data-aos="fade-up">
+                    <span
+                        class="material-symbols-outlined text-cmyk-magenta/20 text-[40px] absolute top-8 left-8">format_quote</span>
+                    <div class="mt-12 space-y-6">
+                        <p class="text-[18px] leading-relaxed italic text-paper-white/80">"We moved all our brochure and
+                            catalogue print here. Quality jumped, and the per-unit cost dropped."</p>
+                        <div class="pt-6 border-t border-outline/10">
+                            <p class="font-bold text-[16px]">Karan Patel</p>
+                            <p class="text-[12px] text-paper-white/40 uppercase tracking-widest">Director, Northpoint
+                                Retail</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section class="py-24 px-4 overflow-hidden md:px-margin-desktop bg-deep-black" id="contact">
+        <div class="max-w-container-max mx-auto">
+            <div class="mb-16 space-y-4" data-aos="fade-up">
+                <div class="flex items-center gap-4">
+                    <div class="h-[2px] w-8 cmyk-line"></div>
+                    <span class="text-[11px] font-black uppercase tracking-[0.3em] text-cmyk-magenta">Get A Quote</span>
+                </div>
+                <h3 class="font-display text-[40px] md:text-[54px] font-extrabold leading-tight">Tell us about your
+                    print job.</h3>
+                <p class="font-body-md text-body-md text-paper-white/50">Share your specs and we'll respond with pricing
+                    within 4 working hours.</p>
+            </div>
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+                <!-- Info Column -->
+                <div class="lg:col-span-4 space-y-4" data-aos="fade-right">
+                    <div
+                        class="bg-surface-variant/5 border border-outline/10 p-6 rounded-xl flex items-center gap-5 hover:bg-surface-variant/10 transition-colors">
+                        <div class="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center">
+                            <span class="material-symbols-outlined text-[18px] opacity-40">call</span>
+                        </div>
+                        <div>
+                            <p class="text-[10px] font-bold text-white/40 uppercase tracking-widest">CALL</p>
+                            <p class="font-bold text-[15px]">+91 9773074517</p>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-surface-variant/5 border border-outline/10 p-6 rounded-xl flex items-center gap-5 hover:bg-surface-variant/10 transition-colors">
+                        <div class="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center">
+                            <span class="material-symbols-outlined text-[18px] opacity-40">chat</span>
+                        </div>
+                        <div>
+                            <p class="text-[10px] font-bold text-white/40 uppercase tracking-widest">WHATSAPP</p>
+                            <a href="https://wa.me/919773074517" target="_blank"
+                                class="font-bold text-[15px] hover:text-cmyk-cyan transition-colors">Chat with sales</a>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-surface-variant/5 border border-outline/10 p-6 rounded-xl flex items-center gap-5 hover:bg-surface-variant/10 transition-colors">
+                        <div class="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center">
+                            <span class="material-symbols-outlined text-[18px] opacity-40">mail</span>
+                        </div>
+                        <div>
+                            <p class="text-[10px] font-bold text-white/40 uppercase tracking-widest">EMAIL</p>
+                            <p class="font-bold text-[15px]">contact@offsetpixel.in</p>
+                        </div>
+                    </div>
+                    <div
+                        class="bg-surface-variant/5 border border-outline/10 p-6 rounded-xl flex items-center gap-5 hover:bg-surface-variant/10 transition-colors">
+                        <div class="w-10 h-10 bg-white/5 rounded-lg flex items-center justify-center">
+                            <span class="material-symbols-outlined text-[18px] opacity-40">location_on</span>
+                        </div>
+                        <div>
+                            <p class="text-[10px] font-bold text-white/40 uppercase tracking-widest">PRESS</p>
+                            <p class="font-bold text-[15px]">Ahmedabad, Gujarat — India</p>
+                        </div>
+                    </div>
+                    <div class="bg-surface-variant/5 border border-outline/10 p-8 rounded-xl space-y-4">
+                        <p class="text-[11px] font-black uppercase tracking-widest text-white/40">WORKING HOURS</p>
+                        <p class="font-bold text-[15px]">Mon – Sat · 10:00 — 19:00 IST</p>
+                        <p class="text-[12px] text-white/30 leading-relaxed">Bulk inquiries answered within 4 hours.</p>
+                    </div>
+                </div>
+                <!-- Form Column -->
+                <div class="lg:col-span-8 bg-surface-variant/5 border border-outline/10 p-10 rounded-2xl hover:shadow-xl transition-all duration-500"
+                    data-aos="fade-left" data-aos-delay="200">
+                    <form class="space-y-8" id="quote-form">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="space-y-2">
+                                <label class="text-[11px] font-black uppercase tracking-widest text-white/40">Full
+                                    Name</label>
+                                <input id="q-name"
+                                    class="w-full bg-black/40 border border-outline/10 rounded-lg px-4 py-3 text-white focus:border-cmyk-cyan focus:ring-0 transition-all outline-none"
+                                    placeholder="Your name" type="text" required />
+                            </div>
+                            <div class="space-y-2">
+                                <label
+                                    class="text-[11px] font-black uppercase tracking-widest text-white/40">Phone</label>
+                                <input id="q-phone"
+                                    class="w-full bg-black/40 border border-outline/10 rounded-lg px-4 py-3 text-white focus:border-cmyk-cyan focus:ring-0 transition-all outline-none"
+                                    placeholder="+91 ..." type="text" required />
+                            </div>
+                        </div>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                            <div class="space-y-2">
+                                <label
+                                    class="text-[11px] font-black uppercase tracking-widest text-white/40">Email</label>
+                                <input id="q-email"
+                                    class="w-full bg-black/40 border border-outline/10 rounded-lg px-4 py-3 text-white focus:border-cmyk-cyan focus:ring-0 transition-all outline-none"
+                                    placeholder="you@brand.com" type="email" />
+                            </div>
+                            <div class="space-y-2">
+                                <label
+                                    class="text-[11px] font-black uppercase tracking-widest text-white/40">Service</label>
+                                <input id="q-service"
+                                    class="w-full bg-black/40 border border-outline/10 rounded-lg px-4 py-3 text-white focus:border-cmyk-cyan focus:ring-0 transition-all outline-none"
+                                    placeholder="e.g. Mono carton, 25K units" type="text" />
+                            </div>
+                        </div>
+                        <div class="space-y-2">
+                            <label class="text-[11px] font-black uppercase tracking-widest text-white/40">Project
+                                Details</label>
+                            <textarea id="q-details"
+                                class="w-full bg-black/40 border border-outline/10 rounded-lg px-4 py-3 text-white focus:border-cmyk-cyan focus:ring-0 transition-all outline-none resize-none"
+                                placeholder="Sizes, GSM, colors, finishing, quantity, deadline..." rows="5"
+                                required></textarea>
+                        </div>
+                        <div class="flex flex-col gap-6">
+                            <button type="submit"
+                                class="bg-paper-white text-deep-black px-10 py-4 rounded-lg font-bold text-[14px] flex items-center justify-center gap-3 self-start hover:bg-white hover:scale-105 active:scale-95 transition-all shadow-xl hover:shadow-paper-white/20">
+                                Send inquiry via WhatsApp
+                                <span class="material-symbols-outlined text-[18px]">send</span>
+                            </button>
+                            <p class="text-[11px] text-white/30">By submitting you agree to be contacted about your
+                                inquiry.</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="py-20 px-4 overflow-hidden md:px-margin-desktop bg-deep-black border-t border-outline/10">
+        <div class="max-w-container-max mx-auto">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+                <div class="md:col-span-4 space-y-8">
+                    <div class="flex items-center gap-3">
+                        <img src="logo.svg" alt="OffsetPixel Logo" class="h-8 md:h-10 w-auto object-contain">
+                    </div>
+                    <p class="text-body-md text-white/50 max-w-xs leading-relaxed">Premium offset printing &amp;
+                        packaging from Ahmedabad. Built for brands, manufacturers and bulk buyers.</p>
+                    <div class="flex gap-4">
+                        <a class="w-10 h-10 border border-outline/20 rounded-lg flex items-center justify-center text-white/40 hover:text-white transition-all"
+                            href="#"><span class="material-symbols-outlined text-[18px]">public</span></a>
+                        <a class="w-10 h-10 border border-outline/20 rounded-lg flex items-center justify-center text-white/40 hover:text-white transition-all"
+                            href="#"><span class="material-symbols-outlined text-[18px]">linked_camera</span></a>
+                        <a class="w-10 h-10 border border-outline/20 rounded-lg flex items-center justify-center text-white/40 hover:text-white transition-all"
+                            href="#"><span class="material-symbols-outlined text-[18px]">work</span></a>
+                        <a class="w-10 h-10 border border-outline/20 rounded-lg flex items-center justify-center text-white/40 hover:text-white transition-all"
+                            href="#"><span class="material-symbols-outlined text-[18px]">alternate_email</span></a>
+                    </div>
+                </div>
+                <div class="md:col-span-2">
+                    <h5 class="text-[11px] font-black uppercase tracking-[0.2em] mb-8 text-white/40">Quick Links</h5>
+                    <ul class="space-y-4">
+                        <li><a class="text-[14px] text-white/70 hover:text-white transition-all"
+                                href="#services">Services</a></li>
+                        <li><a class="text-[14px] text-white/70 hover:text-white transition-all" href="#why-us">Why
+                                Us</a></li>
+                        <li><a class="text-[14px] text-white/70 hover:text-white transition-all"
+                                href="#portfolio">Portfolio</a></li>
+                        <li><a class="text-[14px] text-white/70 hover:text-white transition-all" href="#about">About</a>
+                        </li>
+                        <li></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        const nav = document.getElementById('main-nav');
+        const navContainer = document.getElementById('nav-container');
+        const navLogo = document.getElementById('nav-logo');
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const menuIcon = document.getElementById('menu-icon');
 
-    // Scroll effect
-    window.addEventListener('scroll', () => {
-        if (window.scrollY > 20) {
-            if (navContainer.classList.contains('py-6')) {
-                navContainer.classList.replace('py-6', 'py-2');
-                nav.classList.add('shadow-2xl', 'bg-deep-black/95');
-                navLogo.classList.replace('md:h-10', 'md:h-8');
+        // Scroll effect
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                if (navContainer.classList.contains('py-6')) {
+                    navContainer.classList.replace('py-6', 'py-2');
+                    nav.classList.add('shadow-2xl', 'bg-deep-black/95');
+                    navLogo.classList.replace('md:h-10', 'md:h-8');
+                }
+            } else {
+                if (navContainer.classList.contains('py-2')) {
+                    navContainer.classList.replace('py-2', 'py-6');
+                    nav.classList.remove('shadow-2xl', 'bg-deep-black/95');
+                    navLogo.classList.replace('md:h-8', 'md:h-10');
+                }
             }
-        } else {
-            if (navContainer.classList.contains('py-2')) {
-                navContainer.classList.replace('py-2', 'py-6');
-                nav.classList.remove('shadow-2xl', 'bg-deep-black/95');
-                navLogo.classList.replace('md:h-8', 'md:h-10');
+        });
+
+        mobileMenuBtn.addEventListener('click', function () {
+            const isHidden = mobileMenu.classList.contains('hidden');
+            if (isHidden) {
+                mobileMenu.classList.remove('hidden');
+                mobileMenu.classList.add('flex');
+                menuIcon.textContent = 'close';
+                document.body.style.overflow = 'hidden';
+            } else {
+                mobileMenu.classList.add('hidden');
+                mobileMenu.classList.remove('flex');
+                menuIcon.textContent = 'menu';
+                document.body.style.overflow = '';
             }
-        }
-    });
-
-    mobileMenuBtn.addEventListener('click', function() {
-        const isHidden = mobileMenu.classList.contains('hidden');
-        if (isHidden) {
-            mobileMenu.classList.remove('hidden');
-            mobileMenu.classList.add('flex');
-            menuIcon.textContent = 'close';
-            document.body.style.overflow = 'hidden';
-        } else {
-            mobileMenu.classList.add('hidden');
-            mobileMenu.classList.remove('flex');
-            menuIcon.textContent = 'menu';
-            document.body.style.overflow = '';
-        }
-    });
-
-    // Close menu on link click
-    mobileMenu.querySelectorAll('a').forEach(link => {
-        link.addEventListener('click', () => {
-            mobileMenu.classList.add('hidden');
-            mobileMenu.classList.remove('flex');
-            menuIcon.textContent = 'menu';
-            document.body.style.overflow = '';
         });
-    });
 
-    // Handle form submission to WhatsApp
-    document.getElementById('quote-form').addEventListener('submit', function(e) {
-        e.preventDefault();
-        
-        const name = document.getElementById('q-name').value;
-        const phone = document.getElementById('q-phone').value;
-        const email = document.getElementById('q-email').value;
-        const service = document.getElementById('q-service').value;
-        const details = document.getElementById('q-details').value;
-        
-        let message = `*New Print Inquiry*\n\n`;
-        message += `*Name:* ${name}\n`;
-        message += `*Phone:* ${phone}\n`;
-        if (email) message += `*Email:* ${email}\n`;
-        if (service) message += `*Service:* ${service}\n`;
-        message += `\n*Project Details:*\n${details}`;
-        
-        const encodedMessage = encodeURIComponent(message);
-        window.open(`https://wa.me/919773074517?text=${encodedMessage}`, '_blank');
-    });
-</script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
-<script>
-    window.addEventListener('load', () => {
-        AOS.init({
-            duration: 800,
-            once: true,
-            offset: 50,
+        // Close menu on link click
+        mobileMenu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                mobileMenu.classList.remove('flex');
+                menuIcon.textContent = 'menu';
+                document.body.style.overflow = '';
+            });
         });
-    });
-</script>
-</body></html>
 
+        // Handle form submission to WhatsApp
+        document.getElementById('quote-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            const name = document.getElementById('q-name').value;
+            const phone = document.getElementById('q-phone').value;
+            const email = document.getElementById('q-email').value;
+            const service = document.getElementById('q-service').value;
+            const details = document.getElementById('q-details').value;
+
+            let message = `*New Print Inquiry*\n\n`;
+            message += `*Name:* ${name}\n`;
+            message += `*Phone:* ${phone}\n`;
+            if (email) message += `*Email:* ${email}\n`;
+            if (service) message += `*Service:* ${service}\n`;
+            message += `\n*Project Details:*\n${details}`;
+
+            const encodedMessage = encodeURIComponent(message);
+            window.open(`https://wa.me/919773074517?text=${encodedMessage}`, '_blank');
+        });
+    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+    <script>
+        window.addEventListener('load', () => {
+            AOS.init({
+                duration: 800,
+                once: true,
+                offset: 50,
+            });
+        });
+    </script>
+</body>
+
+</html>
